@@ -1,0 +1,141 @@
+# ================================================================
+# 配信する駅の定義。ブラウザ上でこのファイルを開き、鉛筆アイコンで直せる。
+#
+#  id                半角英数とハイフンのみ。一度決めたら変えない（アプリの登録キー）
+#  name              駅名
+#  line              路線名
+#  direction         方面（表示名）
+#  operator          事業者
+#  adapter           取得方法: meitetsu / jrcentral / nagoya_subway / yahoo / manual
+#  url               取得元URL（adapter が使う）
+#  direction_keyword ページ内で方面を選ぶ文字
+#  destination       行先の既定表示（空なら取得結果を使う）
+#  fallback          自動取得が失敗したときの保険: manual / yahoo / none
+#  enabled           false にすると配信対象から外す
+#
+# ※同梱の manual データは代表値のサンプル。運用前に必ず公式時刻表で置き換えること。
+# ================================================================
+stations:
+  # ---------- 名鉄瀬戸線 ----------
+  - id: meitetsu-seto-moriyama-sakaemachi
+    name: 守山自衛隊前
+    line: 名鉄瀬戸線
+    direction: 栄町方面
+    operator: 名古屋鉄道
+    adapter: meitetsu
+    url: "https://top.meitetsu.co.jp/eki/time?station=%E5%AE%88%E5%B1%B1%E8%87%AA%E8%A1%9B%E9%9A%8A%E5%89%8D&line=%E7%80%AC%E6%88%B8%E7%B7%9A"
+    direction_keyword: "栄町"
+    destination: "栄町"
+    fallback: manual
+    enabled: true
+
+  - id: meitetsu-seto-moriyama-owariseto
+    name: 守山自衛隊前
+    line: 名鉄瀬戸線
+    direction: 尾張瀬戸方面
+    operator: 名古屋鉄道
+    adapter: meitetsu
+    url: "https://top.meitetsu.co.jp/eki/time?station=%E5%AE%88%E5%B1%B1%E8%87%AA%E8%A1%9B%E9%9A%8A%E5%89%8D&line=%E7%80%AC%E6%88%B8%E7%B7%9A"
+    direction_keyword: "尾張瀬戸"
+    destination: "尾張瀬戸"
+    fallback: manual
+    enabled: true
+
+  - id: meitetsu-seto-sakaemachi-owariseto
+    name: 栄町
+    line: 名鉄瀬戸線
+    direction: 尾張瀬戸方面
+    operator: 名古屋鉄道
+    adapter: meitetsu
+    url: "https://top.meitetsu.co.jp/eki/time?station=%E6%A0%84%E7%94%BA&line=%E7%80%AC%E6%88%B8%E7%B7%9A"
+    direction_keyword: "尾張瀬戸"
+    destination: "尾張瀬戸"
+    fallback: manual
+    enabled: true
+
+  # ---------- JR中央本線 ----------
+  - id: jr-chuo-ozone-nagoya
+    name: 大曽根
+    line: JR中央本線
+    direction: 名古屋方面
+    operator: JR東海
+    adapter: jrcentral
+    url: "https://railway.jr-central.co.jp/timetable/"
+    direction_keyword: "名古屋"
+    destination: "名古屋"
+    fallback: manual
+    enabled: true
+
+  - id: jr-chuo-ozone-tajimi
+    name: 大曽根
+    line: JR中央本線
+    direction: 多治見・中津川方面
+    operator: JR東海
+    adapter: jrcentral
+    url: "https://railway.jr-central.co.jp/timetable/"
+    direction_keyword: "多治見"
+    destination: "多治見"
+    fallback: manual
+    enabled: true
+
+  - id: jr-chuo-nagoya-tajimi
+    name: 名古屋
+    line: JR中央本線
+    direction: 多治見・中津川方面
+    operator: JR東海
+    adapter: jrcentral
+    url: "https://railway.jr-central.co.jp/timetable/"
+    direction_keyword: "多治見"
+    destination: "多治見"
+    fallback: manual
+    enabled: true
+
+  # ---------- 名古屋市営地下鉄 名城線 ----------
+  - id: subway-meijo-ozone-kanayama
+    name: 大曽根
+    line: 地下鉄名城線
+    direction: 金山・新瑞橋方面（右回り）
+    operator: 名古屋市交通局
+    adapter: nagoya_subway
+    url: "https://www.kotsu.city.nagoya.jp/jp/pc/SUBWAY/timetable.html"
+    direction_keyword: "金山"
+    destination: "金山方面"
+    fallback: manual
+    enabled: true
+
+  - id: subway-meijo-sakae-kanayama
+    name: 栄
+    line: 地下鉄名城線
+    direction: 金山・新瑞橋方面（右回り）
+    operator: 名古屋市交通局
+    adapter: nagoya_subway
+    url: "https://www.kotsu.city.nagoya.jp/jp/pc/SUBWAY/timetable.html"
+    direction_keyword: "金山"
+    destination: "金山方面"
+    fallback: manual
+    enabled: true
+
+  # ---------- 名古屋市営地下鉄 東山線 ----------
+  - id: subway-higashiyama-sakae-fujigaoka
+    name: 栄
+    line: 地下鉄東山線
+    direction: 藤が丘方面
+    operator: 名古屋市交通局
+    adapter: nagoya_subway
+    url: "https://www.kotsu.city.nagoya.jp/jp/pc/SUBWAY/timetable.html"
+    direction_keyword: "藤が丘"
+    destination: "藤が丘"
+    fallback: manual
+    enabled: true
+
+  - id: subway-higashiyama-nagoya-fujigaoka
+    name: 名古屋
+    line: 地下鉄東山線
+    direction: 藤が丘方面
+    operator: 名古屋市交通局
+    adapter: nagoya_subway
+    url: "https://www.kotsu.city.nagoya.jp/jp/pc/SUBWAY/timetable.html"
+    direction_keyword: "藤が丘"
+    destination: "藤が丘"
+    fallback: manual
+    enabled: true

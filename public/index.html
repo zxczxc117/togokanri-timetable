@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>togokanri-timetable 配信</title>
+<style>
+  body{font-family:system-ui,-apple-system,"Segoe UI",sans-serif;margin:0;background:#0f1115;color:#e8eaed}
+  .wrap{max-width:720px;margin:0 auto;padding:24px}
+  h1{font-size:20px}
+  code{background:#1b1f27;padding:2px 6px;border-radius:4px}
+  a{color:#8ab4f8}
+  .card{background:#161a22;border:1px solid #262c38;border-radius:10px;padding:16px;margin:12px 0}
+  table{border-collapse:collapse;width:100%;font-size:13px}
+  th,td{border-bottom:1px solid #262c38;padding:6px 8px;text-align:left}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>統合管理アプリ 時刻表配信</h1>
+  <div class="card">
+    <p>配信データ本体: <a href="index.json">index.json</a></p>
+    <p>アプリの「電車 → データ取得 → 配信」タブに、このページのURL（末尾 <code>/</code>）を入力してください。</p>
+  </div>
+  <div class="card" id="meta">読み込み中…</div>
+  <div class="card"><div id="list"></div></div>
+</div>
+<script>
+fetch('index.json').then(r=>r.json()).then(d=>{
+  document.getElementById('meta').innerHTML =
+    'スキーマ v'+d.schemaVersion+' / 生成 '+d.generatedAt+' / 更新日 '+d.updatedDate;
+  let rows='<table><tr><th>路線</th><th>駅</th><th>方面</th><th>取得元</th><th>更新日</th></tr>';
+  (d.lines||[]).forEach(ln=>(ln.stations||[]).forEach(s=>{
+    rows+='<tr><td>'+ln.lineName+'</td><td>'+s.stationName+'</td><td>'+s.directionName+
+          '</td><td>'+(s.source||'')+'</td><td>'+s.updatedDate+'</td></tr>';
+  }));
+  document.getElementById('list').innerHTML=rows+'</table>';
+}).catch(e=>{document.getElementById('meta').textContent='index.json を読めません: '+e;});
+</script>
+</body>
+</html>
