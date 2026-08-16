@@ -1,0 +1,72 @@
+name: build-timetable
+
+on:
+  schedule:
+    - cron: "0 19 * * *"   # UTC 19:00 = 日本時間 翌4:00
+  workflow_dispatch: {}     # 手動実行ボタン
+
+permissions:
+  contents: write           # public/index.json をコミットするため
+  pages: write
+  id-token: write
+
+concurrency:
+  group: build-timetable
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: リポジトリ取得
+        uses: actions/checkout@v4
+
+      - name: Python 準備
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: ライブラリ導入
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Chromium 導入（スクレイピング用）
+        run: python -m playwright install --with-deps chromium
+
+      - name: 時刻表を生成
+        run: python build.py
+
+      - name: 変更があればコミット
+        run: |
+          if [ -n "$(git status --porcelain public/index.json)" ]; then
+            git config user.name  "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add public/index.json
+            git commit -m "時刻表を更新 ($(date +%F))"
+            git push
+          else
+            echo "変更なし。コミットしません。"
+          fi
+
+      - name: Pages 用に成果物をまとめる
+        run: |
+          mkdir -p _site
+          cp public/index.json _site/index.json
+          cp public/index.html _site/index.html 2>/dev/null || true
+
+      - name: Pages 生成物をアップロード
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: GitHub Pages へ公開
+        id: deployment
+        uses: actions/deploy-pages@v4
