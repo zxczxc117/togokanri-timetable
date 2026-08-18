@@ -16,7 +16,7 @@ import json
 from dataclasses import dataclass, field
 from typing import Dict, List
 
-SCHEMA_VERSION = 1
+SCHEMA_VERSION = 2
 
 # ダイヤ種別（Android 側 DiaType と一致させること）
 WEEKDAY = "WEEKDAY"
@@ -46,6 +46,8 @@ class Station:
     updatedDate: str = ""
     contentHash: str = ""
     source: str = ""          # 実際に採用した取得方法（adapter/yahoo/manual）
+    sourceUrl: str = ""       # 駅・方面固有の実取得URL
+    directionKey: str = ""    # 名鉄のup/down等、取得対象を識別するキー
 
     def compute_hash(self) -> str:
         """時刻内容だけからハッシュを作る。更新判定に使う。"""
@@ -77,6 +79,8 @@ class Station:
             "updatedDate": self.updatedDate,
             "contentHash": self.contentHash,
             "source": self.source,
+            "sourceUrl": self.sourceUrl,
+            "directionKey": self.directionKey,
             "kinds": self.kinds or self.collect_kinds(),
             "diagrams": {
                 dia: [

@@ -1,49 +1,29 @@
 # togokanri-timetable（時刻表配信サーバ）
 
-名鉄瀬戸線・JR中央本線・名古屋市営地下鉄（名城線／東山線）の駅時刻表を、
-GitHub Actions で毎日自動生成し、GitHub Pages で配信する仕組み。
-統合管理アプリの「電車 → データ取得 → 配信」タブから取り込む。
+GitHub Actionsで公式時刻表を取得し、駅・方面ごとの時刻を`public/index.json`としてGitHub Pagesへ公開する。
 
-## 仕組み（C兼A方式）
+## 取得経路
 
-```
-GitHub Actions（毎日JST04:00）
-  └ build.py
-      ├ ① 各社サイトを Playwright で取得（自動取得）
-      └ ② 失敗したら manual/ の手貼りデータへフォールバック（安全網）
-  → public/index.json を生成（変わった駅だけ updatedDate を更新）
-  → GitHub Pages で公開
-        ↓
-アプリが Wi-Fi 接続時に1日1回だけ index.json を確認し、更新があれば取り込む
-```
+* JR東海: `https://railway.jr-central.co.jp/time-schedule/search/index.html` の駅コードAPIで駅名をコード化し、`result.html?code=...`の検索結果から「路線名・平日/休日・上り/下り」に一致するPDFリンクを選び、PDFを解析する。旧URL `https://railway.jr-central.co.jp/timetable/`は使用しない。
+* 名古屋市交通局: `timetable_list.html?name=駅名`を取得し、設定した方面文字列と`direction_key`に一致する`code`/`direction`リンクを選び、`timetable_dtl.html`の平日・土曜/休日列を解析する。駅名を単に入力欄へ入れるだけで最終ページを固定表示する処理ではない。
+* 名鉄: `start_id`・`link_id`・`direction_key(up/down)`を駅・方面ごとに検証し、`TrainDiagram`へ遷移する。いずれかが未設定または不一致の場合は取得NGとしてmanualへフォールバックする。別駅・逆方向のIDを推測して流用しない。
 
-- **A（自動取得）**: `adapters/{meitetsu,jrcentral,nagoya_subway}.py` が公式サイトを描画して表を抽出。
-- **保険**: 公式が取れないときは `adapters/yahoo.py`（Yahoo!路線情報）。
-- **C（確実な土台）**: それも駄目なら `manual/<駅id>/*.txt` の手貼りデータを使う。
-  取得が全滅しても前回の `index.json` を維持するので配信は止まらない。
+## 重要な設定
 
-## フォルダ構成
+`stations.yaml`の1項目が1駅1方面を表す。以下は同時に一致している必要がある。
 
-| パス | 役割 |
-|---|---|
-| `stations.yaml` | 配信する駅の定義（adapter/url/方面/フォールバック） |
-| `build.py` | 生成本体。自己テスト→取得→差分検知→`public/index.json` |
-| `adapters/` | 取得方法（meitetsu / jrcentral / nagoya_subway / yahoo / manual） |
-| `lib/model.py` | JSONスキーマ（アプリの StationEntry / Departure に対応） |
-| `lib/textparse.py` | 時刻テキスト/表の解析（25時超・記号・全角対応、自己テスト付き） |
-| `manual/<駅id>/` | 手貼り時刻表（WEEKDAY / SATURDAY / HOLIDAY .txt） |
-| `tools/inspect.py` | 取れなくなった時の調査ツール |
-| `public/index.json` | 公開される成果物（アプリ取得対象） |
-| `.github/workflows/build.yml` | 毎日1回の自動実行 |
+* JR: `name`, `line_keyword`, `direction_key(up/down)`
+* 地下鉄: `name`, `direction_keyword`, `direction_key(詳細ページのdirection値)`
+* 名鉄: `start_id`, `link_id`, `direction_key(up/down)`
 
-> 同梱の manual データは**代表値のサンプル**です。運用前に必ず公式時刻表で置き換えてください。
-> 公開までの詳しい手順は同梱の「配信サーバ構築手順.md」を参照。
+公式サイトのURLやHTMLが変更され、対象リンクを特定できない場合は、誤った駅のデータを成功扱いにせず、前回データまたは`manual/`へフォールバックする。GitHub ActionsのSummaryに失敗理由を残す。
 
-## ローカルで試す
+## ローカル確認
 
 ```bash
 pip install -r requirements.txt
-python build.py --force-manual   # スクレイピング無しで manual から生成
-python build.py                  # 通常（自動取得→失敗はフォールバック）
-python build.py --check          # 差分の有無だけ確認
+python build.py --force-manual
+python -m py_compile build.py adapters/*.py lib/*.py
 ```
+
+実サイト取得はネットワークとPlaywright/PDF依存のため、ローカルで上記の机上確認を実施した後、GitHub Actionsの手動実行で公式ページからの取得を確認する。

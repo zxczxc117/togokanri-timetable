@@ -131,15 +131,35 @@ def parse_hour_block_text(
     return trips
 
 
+_KNOWN_KINDS = ("ミュースカイ", "快速特急", "快速急行", "特急", "急行", "準急", "普通")
+
+def _cell_meta(cell: str, default_kind: str, default_destination: str):
+    """色や小文字をテキスト化したセルから種別・行先を失わず取り出す。"""
+    text = _z2h(cell or "").replace("\n", " ").strip()
+    kind = default_kind
+    km = re.search(r"\[種別:([^\]]+)\]", text)
+    if km:
+        kind = km.group(1).strip() or default_kind
+    for candidate in _KNOWN_KINDS:
+        if candidate in text:
+            kind = candidate
+            break
+    dest = default_destination
+    dm0 = re.search(r"\[行先:([^\]]+)\]", text)
+    if dm0:
+        dest = dm0.group(1).strip() or default_destination
+    # 公式表の「栄町行」「栄町行き」「行先:栄町」を拾う。
+    dm = re.search(r"(?:行先\s*[:：]?\s*|→\s*)([^\s,、]+?)(?:行き|行|$)", text)
+    if dm:
+        dest = dm.group(1).strip()
+    return kind, dest
+
 def parse_table_rows(
     rows: List[List[str]],
     default_kind: str = "普通",
     destination: str = "",
 ) -> List[Trip]:
-    """
-    表（行=時、1列目が時、残り列が分）から Trip を作る。
-    公式サイトの駅時刻表テーブルを想定。
-    """
+    """表から時刻・種別・小文字の行先を抽出する。"""
     trips: List[Trip] = []
     for row in rows:
         cells = [_z2h(c).strip() for c in row if c is not None]
@@ -151,12 +171,14 @@ def parse_table_rows(
             continue
         hour = int(hm.group(1))
         for cell in cells[1:]:
-            for tok in re.split(r"[\s\u3000,]+", cell):
+            cell_kind, cell_dest = _cell_meta(cell, default_kind, destination)
+            clean_cell = re.sub(r"\[(?:種別|行先):[^\]]+\]", " ", cell)
+            for tok in re.split(r"[\s\u3000,]+", clean_cell):
                 mins, _sym = _clean_symbols(tok)
-                if mins == "":
+                if mins == "" or int(mins) > 59:
                     continue
                 trips.append(Trip(time=f"{hour:02d}:{int(mins):02d}",
-                                  kind=default_kind, destination=destination))
+                                  kind=cell_kind, destination=cell_dest))
     return trips
 
 

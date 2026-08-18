@@ -140,6 +140,8 @@ def main() -> int:
             stationName=s.get("name", ""),
             directionName=s.get("direction", ""),
             revision=s.get("revision", ""),
+            sourceUrl=s.get("_resolved_url") or s.get("diagram_url") or s.get("url", ""),
+            directionKey=s.get("direction_key", ""),
         )
         if diagrams is None:
             # 取得失敗。前回データがあれば維持（配信を止めない）
