@@ -1,7 +1,7 @@
 {
  "schemaVersion": 2,
- "generatedAt": "2026-08-23T04:46:16+09:00",
- "updatedDate": "2026-08-19",
+ "generatedAt": "2026-08-24T04:45:04+09:00",
+ "updatedDate": "2026-08-24",
  "publisher": "togokanri-timetable",
  "lines": [
   {
@@ -13,9 +13,9 @@
      "stationName": "守山自衛隊前",
      "directionName": "栄町方面",
      "revision": "",
-     "updatedDate": "2026-08-19",
-     "contentHash": "33f86bf1f796ceb1",
-     "source": "meitetsu",
+     "updatedDate": "2026-08-24",
+     "contentHash": "cb811c56b3976fb1",
+     "source": "manual(fallback)",
      "sourceUrl": "https://trainbus.meitetsu.co.jp/meitetsu-transfer/pc/diagram/TrainDiagram?startId=00003449&linkId=00000871&direction=up",
      "directionKey": "up",
      "kinds": [
@@ -24,87 +24,127 @@
      "diagrams": {
       "WEEKDAY": [
        {
-        "time": "05:30",
+        "time": "05:00",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "05:47",
+        "time": "05:20",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "06:04",
+        "time": "05:40",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "06:19",
+        "time": "06:00",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "06:34",
+        "time": "06:08",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "06:44",
+        "time": "06:15",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "06:54",
+        "time": "06:22",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "07:08",
+        "time": "06:30",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "07:18",
+        "time": "06:38",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "07:28",
+        "time": "06:45",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "07:38",
+        "time": "06:52",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "07:43",
+        "time": "07:00",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "07:48",
+        "time": "07:05",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "07:52",
+        "time": "07:10",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "07:57",
+        "time": "07:15",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "08:01",
+        "time": "07:20",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "08:06",
+        "time": "07:25",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "07:30",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "07:35",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "07:40",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "07:45",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "07:50",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "07:55",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "08:00",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "08:05",
         "kind": "普通",
         "destination": "栄町"
        },
@@ -119,297 +159,437 @@
         "destination": "栄町"
        },
        {
-        "time": "08:19",
+        "time": "08:20",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "08:24",
+        "time": "08:25",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "08:28",
+        "time": "08:30",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "08:33",
+        "time": "08:35",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "08:38",
+        "time": "08:40",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "08:43",
+        "time": "08:45",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "08:49",
+        "time": "08:50",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "08:58",
+        "time": "08:55",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "09:12",
+        "time": "09:00",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "09:27",
+        "time": "09:08",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "09:42",
+        "time": "09:15",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "09:57",
+        "time": "09:22",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "10:12",
+        "time": "09:30",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "10:23",
+        "time": "09:38",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "10:32",
+        "time": "09:45",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "10:42",
+        "time": "09:52",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "10:52",
+        "time": "10:00",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "11:02",
+        "time": "10:10",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "11:12",
+        "time": "10:20",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "11:22",
+        "time": "10:30",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "11:32",
+        "time": "10:40",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "11:42",
+        "time": "10:50",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "11:52",
+        "time": "11:00",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "12:02",
+        "time": "11:10",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "12:12",
+        "time": "11:20",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "12:22",
+        "time": "11:30",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "12:32",
+        "time": "11:40",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "12:42",
+        "time": "11:50",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "12:52",
+        "time": "12:00",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "13:02",
+        "time": "12:10",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "13:12",
+        "time": "12:20",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "13:22",
+        "time": "12:30",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "13:32",
+        "time": "12:40",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "13:42",
+        "time": "12:50",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "13:52",
+        "time": "13:00",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "14:02",
+        "time": "13:10",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "14:12",
+        "time": "13:20",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "14:22",
+        "time": "13:30",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "14:32",
+        "time": "13:40",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "14:42",
+        "time": "13:50",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "14:52",
+        "time": "14:00",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "15:02",
+        "time": "14:10",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "15:12",
+        "time": "14:20",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "15:22",
+        "time": "14:30",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "15:36",
+        "time": "14:40",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "15:53",
+        "time": "14:50",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "16:06",
+        "time": "15:00",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "16:23",
+        "time": "15:10",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "16:36",
+        "time": "15:20",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "16:53",
+        "time": "15:30",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "17:06",
+        "time": "15:40",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "17:23",
+        "time": "15:50",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "17:36",
+        "time": "16:00",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "17:53",
+        "time": "16:08",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "18:06",
+        "time": "16:15",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "18:22",
+        "time": "16:22",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "18:37",
+        "time": "16:30",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "18:52",
+        "time": "16:38",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "19:07",
+        "time": "16:45",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "16:52",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "17:00",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "17:05",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "17:10",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "17:15",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "17:20",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "17:25",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "17:30",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "17:35",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "17:40",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "17:45",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "17:50",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "17:55",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "18:00",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "18:05",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "18:10",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "18:15",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "18:20",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "18:25",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "18:30",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "18:35",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "18:40",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "18:45",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "18:50",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "18:55",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "19:00",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "19:08",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "19:15",
         "kind": "普通",
         "destination": "栄町"
        },
@@ -419,7 +599,17 @@
         "destination": "栄町"
        },
        {
-        "time": "19:37",
+        "time": "19:30",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "19:38",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "19:45",
         "kind": "普通",
         "destination": "栄町"
        },
@@ -429,7 +619,17 @@
         "destination": "栄町"
        },
        {
-        "time": "20:07",
+        "time": "20:00",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "20:08",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "20:15",
         "kind": "普通",
         "destination": "栄町"
        },
@@ -439,7 +639,17 @@
         "destination": "栄町"
        },
        {
-        "time": "20:37",
+        "time": "20:30",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "20:38",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "20:45",
         "kind": "普通",
         "destination": "栄町"
        },
@@ -449,32 +659,37 @@
         "destination": "栄町"
        },
        {
-        "time": "21:02",
+        "time": "21:00",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "21:12",
+        "time": "21:10",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "21:22",
+        "time": "21:20",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "21:34",
+        "time": "21:30",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "21:46",
+        "time": "21:40",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "21:58",
+        "time": "21:50",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "22:00",
         "kind": "普通",
         "destination": "栄町"
        },
@@ -484,22 +699,27 @@
         "destination": "栄町"
        },
        {
-        "time": "22:22",
+        "time": "22:20",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "22:37",
+        "time": "22:30",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "22:52",
+        "time": "22:40",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "23:07",
+        "time": "22:50",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "23:00",
         "kind": "普通",
         "destination": "栄町"
        },
@@ -509,49 +729,79 @@
         "destination": "栄町"
        },
        {
-        "time": "23:34",
+        "time": "23:40",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "24:00",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "24:20",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "24:40",
         "kind": "普通",
         "destination": "栄町"
        }
       ],
       "SATURDAY": [
        {
+        "time": "05:00",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "05:15",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
         "time": "05:30",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "05:47",
+        "time": "05:45",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "06:06",
+        "time": "06:00",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "06:24",
+        "time": "06:10",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "06:38",
+        "time": "06:20",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "06:47",
+        "time": "06:30",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "06:55",
+        "time": "06:40",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "07:02",
+        "time": "06:50",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "07:00",
         "kind": "普通",
         "destination": "栄町"
        },
@@ -561,17 +811,12 @@
         "destination": "栄町"
        },
        {
-        "time": "07:17",
+        "time": "07:20",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "07:25",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "07:32",
+        "time": "07:30",
         "kind": "普通",
         "destination": "栄町"
        },
@@ -581,17 +826,12 @@
         "destination": "栄町"
        },
        {
-        "time": "07:47",
+        "time": "07:50",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "07:55",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "08:02",
+        "time": "08:00",
         "kind": "普通",
         "destination": "栄町"
        },
@@ -601,17 +841,12 @@
         "destination": "栄町"
        },
        {
-        "time": "08:17",
+        "time": "08:20",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "08:25",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "08:32",
+        "time": "08:30",
         "kind": "普通",
         "destination": "栄町"
        },
@@ -621,12 +856,12 @@
         "destination": "栄町"
        },
        {
-        "time": "08:47",
+        "time": "08:50",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "08:57",
+        "time": "09:00",
         "kind": "普通",
         "destination": "栄町"
        },
@@ -636,369 +871,479 @@
         "destination": "栄町"
        },
        {
-        "time": "09:23",
+        "time": "09:20",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "09:36",
+        "time": "09:30",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "09:53",
+        "time": "09:40",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "10:08",
+        "time": "09:50",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "10:22",
+        "time": "10:00",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "10:32",
+        "time": "10:10",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "10:42",
+        "time": "10:20",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "10:52",
+        "time": "10:30",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "11:02",
+        "time": "10:40",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "11:12",
+        "time": "10:50",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "11:22",
+        "time": "11:00",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "11:32",
+        "time": "11:10",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "11:42",
+        "time": "11:20",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "11:52",
+        "time": "11:30",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "12:02",
+        "time": "11:40",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "12:12",
+        "time": "11:50",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "12:22",
+        "time": "12:00",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "12:32",
+        "time": "12:10",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "12:42",
+        "time": "12:20",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "12:52",
+        "time": "12:30",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "13:02",
+        "time": "12:40",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "13:12",
+        "time": "12:50",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "13:22",
+        "time": "13:00",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "13:32",
+        "time": "13:10",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "13:42",
+        "time": "13:20",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "13:52",
+        "time": "13:30",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "14:02",
+        "time": "13:40",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "14:12",
+        "time": "13:50",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "14:22",
+        "time": "14:00",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "14:32",
+        "time": "14:10",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "14:42",
+        "time": "14:20",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "14:52",
+        "time": "14:30",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "15:02",
+        "time": "14:40",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "15:12",
+        "time": "14:50",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "15:22",
+        "time": "15:00",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "15:36",
+        "time": "15:10",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "15:53",
+        "time": "15:20",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "16:06",
+        "time": "15:30",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "16:23",
+        "time": "15:40",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "16:36",
+        "time": "15:50",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "16:53",
+        "time": "16:00",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "17:06",
+        "time": "16:10",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "17:23",
+        "time": "16:20",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "17:36",
+        "time": "16:30",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "17:53",
+        "time": "16:40",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "18:06",
+        "time": "16:50",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "18:23",
+        "time": "17:00",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "18:36",
+        "time": "17:10",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "18:53",
+        "time": "17:20",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "19:06",
+        "time": "17:30",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "19:23",
+        "time": "17:40",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "19:33",
+        "time": "17:50",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "19:43",
+        "time": "18:00",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "19:53",
+        "time": "18:10",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "20:05",
+        "time": "18:20",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "20:17",
+        "time": "18:30",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "20:29",
+        "time": "18:40",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "20:41",
+        "time": "18:50",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "20:53",
+        "time": "19:00",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "21:08",
+        "time": "19:10",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "21:23",
+        "time": "19:20",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "21:38",
+        "time": "19:30",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "21:53",
+        "time": "19:40",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "22:08",
+        "time": "19:50",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "22:23",
+        "time": "20:00",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "22:37",
+        "time": "20:10",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "22:52",
+        "time": "20:20",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "23:07",
+        "time": "20:30",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "23:20",
+        "time": "20:40",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "23:34",
+        "time": "20:50",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "21:00",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "21:10",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "21:20",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "21:30",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "21:40",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "21:50",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "22:00",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "22:10",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "22:20",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "22:30",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "22:40",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "22:50",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "23:00",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "23:15",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "23:30",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "23:45",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "24:00",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "24:15",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "24:30",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "24:45",
         "kind": "普通",
         "destination": "栄町"
        }
       ],
       "HOLIDAY": [
        {
-        "time": "05:30",
+        "time": "05:00",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "05:47",
+        "time": "05:20",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "06:06",
+        "time": "05:40",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "06:00",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "06:12",
         "kind": "普通",
         "destination": "栄町"
        },
@@ -1008,107 +1353,77 @@
         "destination": "栄町"
        },
        {
-        "time": "06:38",
+        "time": "06:36",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "06:47",
+        "time": "06:48",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "06:55",
+        "time": "07:00",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "07:02",
+        "time": "07:12",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "07:10",
+        "time": "07:24",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "07:17",
+        "time": "07:36",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "07:25",
+        "time": "07:48",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "07:32",
+        "time": "08:00",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "07:40",
+        "time": "08:12",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "07:47",
+        "time": "08:24",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "07:55",
+        "time": "08:36",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "08:02",
+        "time": "08:48",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "08:10",
+        "time": "09:00",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "08:17",
+        "time": "09:12",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "08:25",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "08:32",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "08:40",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "08:47",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "08:57",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "09:10",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "09:23",
+        "time": "09:24",
         "kind": "普通",
         "destination": "栄町"
        },
@@ -1118,37 +1433,37 @@
         "destination": "栄町"
        },
        {
-        "time": "09:53",
+        "time": "09:48",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "10:08",
+        "time": "10:00",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "10:22",
+        "time": "10:12",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "10:32",
+        "time": "10:24",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "10:42",
+        "time": "10:36",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "10:52",
+        "time": "10:48",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "11:02",
+        "time": "11:00",
         "kind": "普通",
         "destination": "栄町"
        },
@@ -1158,27 +1473,22 @@
         "destination": "栄町"
        },
        {
-        "time": "11:22",
+        "time": "11:24",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "11:32",
+        "time": "11:36",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "11:42",
+        "time": "11:48",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "11:52",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "12:02",
+        "time": "12:00",
         "kind": "普通",
         "destination": "栄町"
        },
@@ -1188,27 +1498,22 @@
         "destination": "栄町"
        },
        {
-        "time": "12:22",
+        "time": "12:24",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "12:32",
+        "time": "12:36",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "12:42",
+        "time": "12:48",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "12:52",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "13:02",
+        "time": "13:00",
         "kind": "普通",
         "destination": "栄町"
        },
@@ -1218,27 +1523,22 @@
         "destination": "栄町"
        },
        {
-        "time": "13:22",
+        "time": "13:24",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "13:32",
+        "time": "13:36",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "13:42",
+        "time": "13:48",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "13:52",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "14:02",
+        "time": "14:00",
         "kind": "普通",
         "destination": "栄町"
        },
@@ -1248,27 +1548,22 @@
         "destination": "栄町"
        },
        {
-        "time": "14:22",
+        "time": "14:24",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "14:32",
+        "time": "14:36",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "14:42",
+        "time": "14:48",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "14:52",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "15:02",
+        "time": "15:00",
         "kind": "普通",
         "destination": "栄町"
        },
@@ -1278,7 +1573,7 @@
         "destination": "栄町"
        },
        {
-        "time": "15:22",
+        "time": "15:24",
         "kind": "普通",
         "destination": "栄町"
        },
@@ -1288,17 +1583,22 @@
         "destination": "栄町"
        },
        {
-        "time": "15:53",
+        "time": "15:48",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "16:06",
+        "time": "16:00",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "16:23",
+        "time": "16:12",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "16:24",
         "kind": "普通",
         "destination": "栄町"
        },
@@ -1308,17 +1608,22 @@
         "destination": "栄町"
        },
        {
-        "time": "16:53",
+        "time": "16:48",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "17:06",
+        "time": "17:00",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "17:23",
+        "time": "17:12",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "17:24",
         "kind": "普通",
         "destination": "栄町"
        },
@@ -1328,17 +1633,22 @@
         "destination": "栄町"
        },
        {
-        "time": "17:53",
+        "time": "17:48",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "18:06",
+        "time": "18:00",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "18:23",
+        "time": "18:12",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "18:24",
         "kind": "普通",
         "destination": "栄町"
        },
@@ -1348,102 +1658,112 @@
         "destination": "栄町"
        },
        {
-        "time": "18:53",
+        "time": "18:48",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "19:06",
+        "time": "19:00",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "19:23",
+        "time": "19:12",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "19:33",
+        "time": "19:24",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "19:43",
+        "time": "19:36",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "19:53",
+        "time": "19:48",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "20:05",
+        "time": "20:00",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "20:17",
+        "time": "20:12",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "20:29",
+        "time": "20:24",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "20:41",
+        "time": "20:36",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "20:53",
+        "time": "20:48",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "21:08",
+        "time": "21:00",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "21:23",
+        "time": "21:12",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "21:38",
+        "time": "21:24",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "21:53",
+        "time": "21:36",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "22:08",
+        "time": "21:48",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "22:23",
+        "time": "22:00",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "22:37",
+        "time": "22:12",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "22:52",
+        "time": "22:24",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "23:07",
+        "time": "22:36",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "22:48",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "23:00",
         "kind": "普通",
         "destination": "栄町"
        },
@@ -1453,7 +1773,22 @@
         "destination": "栄町"
        },
        {
-        "time": "23:34",
+        "time": "23:40",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "24:00",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "24:20",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "24:40",
         "kind": "普通",
         "destination": "栄町"
        }
