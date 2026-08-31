@@ -35,11 +35,11 @@ from html.parser import HTMLParser
 from urllib.parse import urljoin
 
 try:
-    from lib.model import Trip
+    from lib.model import WEEKDAY, SATURDAY, HOLIDAY, Trip
 except ModuleNotFoundError:
     import os, sys
     sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-    from lib.model import Trip
+        from lib.model import WEEKDAY, SATURDAY, HOLIDAY, Trip
 
 _HOUR_TOKEN = re.compile(r"^(\d{1,2})\s*(?:時|:|：)?$")
 _MIN_TOKEN = re.compile(r"(\d{1,2})")
@@ -527,17 +527,16 @@ def self_test() -> List[str]:
     <div>瀬 : 尾張瀬戸　旭 : 尾張旭　喜 : 喜多山</div>
     """
     mt_by_day = parse_meitetsu_diagram(
-         meitetsu_html,
-         kind_class_map={
-             "kind-futsu": "普通",
-             "kind-junkyu": "準急",
-             "kind-kyuko": "急行",
-         },
-     )
+        meitetsu_html,
+        kind_class_map={
+            "kind-futsu": "普通",
+            "kind-junkyu": "準急",
+            "kind-kyuko": "急行",
+        },
+    )
+    mt = mt_by_day[WEEKDAY]
 
-     mt = mt_by_day[WEEKDAY]
-
-     got = [(x.time, x.kind, x.destination) for x in mt]
+    got = [(x.time, x.kind, x.destination) for x in mt]
     expected = [
         ("07:04", "普通", "尾張瀬戸"),
         ("07:17", "準急", "尾張旭"),
