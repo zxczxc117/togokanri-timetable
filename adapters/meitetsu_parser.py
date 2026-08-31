@@ -39,7 +39,7 @@ try:
 except ModuleNotFoundError:
     import os, sys
     sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-        from lib.model import WEEKDAY, SATURDAY, HOLIDAY, Trip
+    from lib.model import WEEKDAY, SATURDAY, HOLIDAY, Trip
 
 _HOUR_TOKEN = re.compile(r"^(\d{1,2})\s*(?:時|:|：)?$")
 _MIN_TOKEN = re.compile(r"(\d{1,2})")
