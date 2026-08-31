@@ -33,6 +33,7 @@ import unicodedata
 from typing import Callable, Dict, List, Optional, Tuple
 from html.parser import HTMLParser
 from urllib.parse import urljoin
+from html import unescape
 
 try:
     from lib.model import WEEKDAY, SATURDAY, HOLIDAY, Trip
@@ -46,7 +47,8 @@ _MIN_TOKEN = re.compile(r"(\d{1,2})")
 
 
 def _z2h(s: str) -> str:
-    """全角英数記号・全角スペースを半角へ。"""
+    """HTMLエンティティを復元し、全角英数記号・全角スペースを半角へ。"""
+    s = unescape(s or "")
     return unicodedata.normalize("NFKC", s)
 
 
@@ -190,38 +192,81 @@ def parse_table_rows(
 _MEITETSU_DEST_CODE_RE = re.compile(r"^\s*([^\s:：]{1,4})\s*[:：]\s*(.+?)\s*$")
 _MEITETSU_MINUTE_RE = re.compile(r"(?<!\d)(\d{1,2})(?:\s*分\s*はつ)?")
 _MEITETSU_KIND_NAMES = ("ミュースカイ", "快速特急", "快速急行", "特急", "急行", "準急", "普通")
-
+# 名鉄 TrainDiagram の CSS クラスと列車種別の対応。
+# 実際の公式HTMLで確認済み:
+#   d_04 = 普通
+#   d_18 = 準急
+#   d_38 = 急行
+_MEITETSU_KIND_BY_MM_CLASS: Dict[str, str] = {
+    "d_04": "普通",
+    "d_18": "準急",
+    "d_38": "急行",
+}
 
 def _meitetsu_kind_from_attrs(
     attrs: Dict[str, str],
     kind_class_map: Optional[Dict[str, str]] = None,
     kind_style_map: Optional[Dict[str, str]] = None,
 ) -> Optional[str]:
-    """リンク/要素の class, style, data-* 等から列車種別を取得する。
+    """名鉄HTML属性から列車種別を取得する。
 
-    画像やスクリーンショットは使用しない。HTML属性に種別名そのものが
-    含まれる場合、または呼び出し側から CSS class/style と種別の対応表が
-    与えられた場合だけ確定する。
+    優先順位:
+      1. TrainDiagram の mm d_xx クラス
+      2. 呼び出し側から指定された class map
+      3. style map
+      4. HTML属性内に種別名そのものがある場合
     """
+
     class_map = kind_class_map or {}
     style_map = kind_style_map or {}
 
+    # ------------------------------------------------------------
+    # 1. 名鉄公式 TrainDiagram の mm クラス
+    # ------------------------------------------------------------
+    mm_class = attrs.get("_meitetsu_mm_class", "")
+
+    if mm_class:
+        kind = _MEITETSU_KIND_BY_MM_CLASS.get(mm_class)
+
+        if kind is not None:
+            return kind
+
+    # ------------------------------------------------------------
+    # 2. 呼び出し側指定の class map
+    # ------------------------------------------------------------
     class_tokens = attrs.get("class", "").split()
+
     for token in class_tokens:
         if token in class_map:
             return class_map[token]
 
+    # ------------------------------------------------------------
+    # 3. style map
+    # ------------------------------------------------------------
     style = attrs.get("style", "").strip()
+
     if style and style in style_map:
         return style_map[style]
 
+    # ------------------------------------------------------------
+    # 4. 属性値に種別名そのものが含まれる場合
+    # ------------------------------------------------------------
     candidates: List[str] = []
+
     for key, value in attrs.items():
         key_l = key.lower()
-        if key == "class" or key == "style":
+
+        if key in {"class", "style", "_meitetsu_mm_class"}:
             continue
+
         if key_l.startswith("data-") or key_l in {
-            "title", "aria-label", "alt", "id", "name", "type", "kind"
+            "title",
+            "aria-label",
+            "alt",
+            "id",
+            "name",
+            "type",
+            "kind",
         }:
             candidates.append(value)
 
@@ -230,6 +275,7 @@ def _meitetsu_kind_from_attrs(
 
     for value in candidates:
         value = _z2h(value or "").strip()
+
         for kind in _MEITETSU_KIND_NAMES:
             if kind in value:
                 return kind
@@ -240,13 +286,19 @@ def _meitetsu_kind_from_attrs(
 class _MeitetsuCell:
     """1つの td/th 内の文字列と a 要素を DOM 順に保持する。"""
 
-    def __init__(self) -> None:
+    def __init__(
+        self,
+        tag: str = "",
+        attrs: Optional[Dict[str, str]] = None,
+    ) -> None:
+        self.tag = tag
+        self.attrs = dict(attrs or {})
         self.parts: List[Tuple[str, str, Dict[str, str]]] = []
         self._open_link: Optional[Dict[str, str]] = None
         self._link_text: List[str] = []
 
     def start_link(self, attrs: Dict[str, str]) -> None:
-        self._open_link = attrs
+        self._open_link = dict(attrs)
         self._link_text = []
 
     def add_text(self, text: str) -> None:
@@ -258,45 +310,114 @@ class _MeitetsuCell:
     def end_link(self) -> None:
         if self._open_link is None:
             return
-        self.parts.append(("a", "".join(self._link_text), self._open_link))
+
+        self.parts.append(
+            ("a", "".join(self._link_text), self._open_link)
+        )
+
         self._open_link = None
         self._link_text = []
 
 
 class _MeitetsuDiagramHTMLParser(HTMLParser):
-    """TrainDiagram の table/td/a 構造を文字列化せず保持する。"""
+    """TrainDiagram の table/td/a 構造を保持する。
+
+    名鉄の時刻リンクは、
+
+        <div class="mm d_04">
+            <a href="...">30</a>
+        </div>
+
+    のように、列車種別を親の mm クラスで表現している。
+
+    そのため、a 要素だけでなく親の d_04 / d_18 / d_38
+    をリンク属性へ引き継ぐ。
+    """
 
     def __init__(self) -> None:
         super().__init__(convert_charrefs=True)
+
         self.rows: List[List[_MeitetsuCell]] = []
+
         self._row: Optional[List[_MeitetsuCell]] = None
         self._cell: Optional[_MeitetsuCell] = None
+
         self.page_text: List[str] = []
 
-    def handle_starttag(self, tag: str, attrs: List[Tuple[str, Optional[str]]]) -> None:
+        # 現在の div の class をスタックで保持する。
+        # div の入れ子があっても、現在有効な mm クラスを取得できる。
+        self._div_stack: List[str] = []
+
+    def _current_mm_class(self) -> Optional[str]:
+        """現在のDOM位置で有効な mm d_xx クラスを返す。"""
+        for class_value in reversed(self._div_stack):
+            tokens = class_value.split()
+
+            if "mm" not in tokens:
+                continue
+
+            for token in tokens:
+                if token in _MEITETSU_KIND_BY_MM_CLASS:
+                    return token
+
+        return None
+
+    def handle_starttag(
+        self,
+        tag: str,
+        attrs: List[Tuple[str, Optional[str]]],
+    ) -> None:
         tag_l = tag.lower()
         attr_dict = {k: (v or "") for k, v in attrs}
+
         if tag_l == "tr":
             self._row = []
+
+
         elif tag_l in {"td", "th"} and self._row is not None:
-            self._cell = _MeitetsuCell()
+            self._cell = _MeitetsuCell(
+                tag=tag_l,
+                attrs=attr_dict,
+            )
             self._row.append(self._cell)
+
+        elif tag_l == "div":
+            class_value = attr_dict.get("class", "")
+            self._div_stack.append(class_value)
+
         elif tag_l == "a" and self._cell is not None:
-            self._cell.start_link(attr_dict)
+            link_attrs = dict(attr_dict)
+
+            # 親の <div class="mm d_xx"> をリンクへ引き継ぐ。
+            mm_class = self._current_mm_class()
+
+            if mm_class is not None:
+                link_attrs["_meitetsu_mm_class"] = mm_class
+
+            self._cell.start_link(link_attrs)
 
     def handle_endtag(self, tag: str) -> None:
         tag_l = tag.lower()
+
         if tag_l == "a" and self._cell is not None:
             self._cell.end_link()
+
         elif tag_l in {"td", "th"}:
             self._cell = None
+
         elif tag_l == "tr":
             if self._row:
                 self.rows.append(self._row)
+
             self._row = None
+
+        elif tag_l == "div":
+            if self._div_stack:
+                self._div_stack.pop()
 
     def handle_data(self, data: str) -> None:
         self.page_text.append(data)
+
         if self._cell is not None:
             self._cell.add_text(data)
 
@@ -371,6 +492,7 @@ def parse_meitetsu_diagram(
     detail_resolver: Optional[
         Callable[[str], Tuple[Optional[str], Optional[str]]]
     ] = None,
+    destination_fallback: str = "",
 ) -> Dict[str, List[Trip]]:
     """名鉄公式 TrainDiagram HTML を列車単位で Trip 化する。
 
@@ -394,19 +516,34 @@ def parse_meitetsu_diagram(
     if not destination_map:
         raise ValueError("名鉄ページから「行先表示」の対応表を取得できません")
 
-    trips: List[Trip] = []
-    detail_cache: Dict[str, Tuple[Optional[str], Optional[str]]] = {}
+    trips_by_day: Dict[str, List[Trip]] = {
+        WEEKDAY: [],
+        SATURDAY: [],
+        HOLIDAY: [],
+    }
 
     for row in parser.rows:
         if not row:
             continue
 
+        # ------------------------------------------------------------
+        # 行頭の <th class="hour"> から「時」を取得
+        # ------------------------------------------------------------
         hour: Optional[int] = None
+
         for cell in row:
-            cell_text = _z2h(" ".join(
-                text for _kind, text, _attrs in cell.parts
-            )).strip()
+            if cell.tag != "th":
+                continue
+
+            cell_text = _z2h(
+                " ".join(
+                    text
+                    for _kind, text, _attrs in cell.parts
+                )
+            ).strip()
+
             hm = _HOUR_TOKEN.match(cell_text)
+
             if hm:
                 hour = int(hm.group(1))
                 break
@@ -414,62 +551,114 @@ def parse_meitetsu_diagram(
         if hour is None or not 0 <= hour <= 27:
             continue
 
+        # ------------------------------------------------------------
+        # 曜日セルごとに解析
+        #
+        # 名鉄公式HTML:
+        #   td.wkd = 平日
+        #   td.snd = 土休日
+        # ------------------------------------------------------------
         for cell in row:
+            if cell.tag != "td":
+                continue
+
+            cell_classes = set(
+                cell.attrs.get("class", "").split()
+            )
+
+            if "wkd" in cell_classes:
+                day_keys = [WEEKDAY]
+
+            elif "snd" in cell_classes:
+                day_keys = [SATURDAY, HOLIDAY]
+
+            else:
+                continue
+
+            # --------------------------------------------------------
+            # セル内の列車を解析
+            # --------------------------------------------------------
             for index, (part_kind, text, attrs) in enumerate(cell.parts):
                 if part_kind != "a":
                     continue
 
-                minute_match = _MEITETSU_MINUTE_RE.search(_z2h(text))
+                minute_match = _MEITETSU_MINUTE_RE.search(
+                    _z2h(text)
+                )
+
                 if not minute_match:
                     continue
 
                 minute = int(minute_match.group(1))
+
                 if minute > 59:
                     continue
 
+                # ----------------------------------------------------
+                # 列車種別
+                # ----------------------------------------------------
                 kind = _meitetsu_kind_from_attrs(
-                    attrs, kind_class_map, kind_style_map
+                    attrs,
+                    kind_class_map,
+                    kind_style_map,
                 )
+
+                # ----------------------------------------------------
+                # 行先コード
+                # ----------------------------------------------------
                 destination = _meitetsu_extract_destination_from_parts(
-                    cell.parts, destination_map, index
+                    cell.parts,
+                    destination_map,
+                    index,
                 )
 
-                href = _meitetsu_parse_anchor_url(
-                    attrs.get("href", ""), base_url
-                )
+                # ----------------------------------------------------
+                # 行先コードを取得できない場合は駅デフォルト行先
+                #
+                # 例:
+                # 守山自衛隊前
+                #   無印 : 栄町
+                #
+                # → destination_fallback = "栄町"
+                # ----------------------------------------------------
+                if destination is None:
+                    destination = destination_fallback.strip()
 
-                if (kind is None or destination is None) and href and detail_resolver:
-                    if href not in detail_cache:
-                        detail_cache[href] = detail_resolver(href)
-                    detail_kind, detail_destination = detail_cache[href]
-                    if kind is None:
-                        kind = detail_kind
-                    if destination is None:
-                        destination = detail_destination
-
-                # 「普通」を暗黙の既定値にはしない。
+                # ----------------------------------------------------
+                # 種別が取れない場合は「普通」にしない
+                # ----------------------------------------------------
                 if kind is None:
                     raise ValueError(
-                        f"列車種別を取得できません: {hour:02d}:{minute:02d}"
-                    )
-                if destination is None:
-                    raise ValueError(
-                        f"行先を取得できません: {hour:02d}:{minute:02d}"
+                        f"列車種別を取得できません: "
+                        f"{hour:02d}:{minute:02d}"
                     )
 
-                trips.append(
-                    Trip(
-                        time=f"{hour:02d}:{minute:02d}",
-                        kind=kind,
-                        destination=destination,
+                # ----------------------------------------------------
+                # 行先が最終的にも取得できない場合だけエラー
+                # ----------------------------------------------------
+                if not destination:
+                    raise ValueError(
+                        f"行先を取得できません: "
+                        f"{hour:02d}:{minute:02d}"
                     )
+
+                href = _meitetsu_parse_anchor_url(
+                    attrs.get("href", ""),
+                    base_url,
                 )
 
-    return {
-       WEEKDAY: trips,
-       SATURDAY: [],
-       HOLIDAY: [],
-    }
+                trip = Trip(
+                    time=f"{hour:02d}:{minute:02d}",
+                    kind=kind,
+                    destination=destination,
+                )
+
+                # snd は土曜・休日共通ダイヤなので、
+                # SATURDAY と HOLIDAY の両方へ登録
+                for day_key in day_keys:
+                    trips_by_day[day_key].append(trip)
+
+    return trips_by_day
 
 # ---- 自己テスト（build 実行時と単体実行で使う） ----
 def self_test() -> List[str]:
@@ -512,38 +701,80 @@ def self_test() -> List[str]:
     if got != ["05:38", "05:52", "06:05", "06:20", "06:38"]:
         failures.append(f"table:{got}")
 
-    # 名鉄専用 parser: HTML属性に種別を持たせた最小 DOM テスト。
+    # 名鉄専用 parser:
+    # 実際の TrainDiagram と同じ
+    # <div class="mm d_04"><a>04</a></div>
+    # 構造をテストする。
     meitetsu_html = """
-    <table>
-      <tr><td>07</td>
-        <td>
-          <a class="kind-futsu" href="/detail/0704">04</a> 瀬
-          <a class="kind-junkyu" href="/detail/0717">17</a> 旭
-          <a class="kind-kyuko" href="/detail/0728">28</a> 旭
-        </td>
-      </tr>
+    <table class="diagram-table parallel">
+      <tbody>
+        <tr class="l2">
+          <th class="hour">15</th>
+
+          <td class="wkd">
+
+            <div class="diagram-item">
+              <div class="mm d_04">
+                <a href="/detail/1500">
+                  <span aria-hidden="true">00</span>
+                  <span class="speech-only">0分はつ 行き</span>
+                </a>
+              </div>
+              <div class="mark">
+                <div class="top">瀬</div>
+              </div>
+            </div>
+
+            <div class="diagram-item">
+              <div class="mm d_18">
+                <a href="/detail/1540">
+                  <span aria-hidden="true">40</span>
+                  <span class="speech-only">40分はつ 行き</span>
+                </a>
+              </div>
+              <div class="mark">
+                <div class="top">瀬</div>
+              </div>
+            </div>
+
+            <div class="diagram-item">
+              <div class="mm d_38">
+                <a href="/detail/1555">
+                  <span aria-hidden="true">55</span>
+                  <span class="speech-only">55分はつ 行き</span>
+                </a>
+              </div>
+              <div class="mark">
+                <div class="top">瀬</div>
+              </div>
+            </div>
+
+          </td>
+        </tr>
+      </tbody>
     </table>
+
     <div>行先表示</div>
     <div>瀬 : 尾張瀬戸　旭 : 尾張旭　喜 : 喜多山</div>
     """
-    mt_by_day = parse_meitetsu_diagram(
-        meitetsu_html,
-        kind_class_map={
-            "kind-futsu": "普通",
-            "kind-junkyu": "準急",
-            "kind-kyuko": "急行",
-        },
-    )
-    mt = mt_by_day[WEEKDAY]
 
-    got = [(x.time, x.kind, x.destination) for x in mt]
-    expected = [
-        ("07:04", "普通", "尾張瀬戸"),
-        ("07:17", "準急", "尾張旭"),
-        ("07:28", "急行", "尾張旭"),
+    mt = parse_meitetsu_diagram(meitetsu_html)
+
+    got = [
+        (x.time, x.kind, x.destination)
+        for x in mt
     ]
+
+    expected = [
+        ("15:00", "普通", "尾張瀬戸"),
+        ("15:40", "準急", "尾張瀬戸"),
+        ("15:55", "急行", "尾張瀬戸"),
+    ]
+
     if got != expected:
-        failures.append(f"meitetsu:{got}")
+        failures.append(
+            f"meitetsu_real_structure:{got}"
+        )
 
     # 行先コードは列車単位で分離する。
     if [x.destination for x in mt] != ["尾張瀬戸", "尾張旭", "尾張旭"]:

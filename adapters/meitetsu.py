@@ -10,7 +10,6 @@ from adapters.base import FetchError
 from adapters.scrape_common import render_html, ensure_nonempty
 from adapters.meitetsu_parser import parse_meitetsu_diagram
 
-
 BASE = (
     "https://trainbus.meitetsu.co.jp/"
     "meitetsu-transfer/pc/diagram/TrainDiagram"
@@ -122,11 +121,11 @@ def fetch(
         url,
         wait_selector="table",
     )
-
     trips = parse_meitetsu_diagram(
         html,
         base_url=final_url,
         detail_resolver=_resolve_detail,
+        destination_fallback=station.get("destination", ""),
     )
 
     if not trips:
@@ -146,6 +145,7 @@ def fetch(
         html,
         base_url=final_url,
         detail_resolver=_resolve_detail,
+        destination_fallback=station.get("destination", ""),
     )
 
     ensure_nonempty(trips_by_day)

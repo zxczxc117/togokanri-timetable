@@ -74,5 +74,9 @@ def render_page(url: str, wait_selector: str = '', timeout_ms: int = 30000,
     except Exception as e:
         raise FetchError(f"ページ遷移/描画失敗: {url}: {e}")
 
-def render_html(url: str, wait_selector: str = '', timeout_ms: int = 30000) -> str:
-    return render_page(url, wait_selector, timeout_ms)[0]
+def render_html(
+    url: str,
+    wait_selector: str = '',
+    timeout_ms: int = 30000,
+) -> Tuple[str, str]:
+    return render_page(url, wait_selector, timeout_ms)

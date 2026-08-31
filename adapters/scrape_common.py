@@ -85,7 +85,7 @@ def split_side_by_side(rows):
     return take(wk),take(hol)
 
 def scrape_station_tables(station: dict, wait_selector: str='table', context_keyword: str='') -> Dict[str,List[Trip]]:
-    html=render_html(station['url'],wait_selector=wait_selector)
+    html, _ =render_html(station['url'],wait_selector=wait_selector)
     records=[x for x in extract_table_records(html) if looks_like_timetable(x[0])]
     if context_keyword:
         kw=context_keyword.replace('方面','').strip()
