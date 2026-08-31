@@ -37,6 +37,9 @@ stations:
     operator: 名古屋鉄道
     adapter: meitetsu
     direction_key: down
+    start_id: "00000655"
+    link_id: "00000871"
+    diagram_url: "https://trainbus.meitetsu.co.jp/meitetsu-transfer/pc/diagram/TrainDiagram?startId=00000655&linkId=00000871&direction=down"
     direction_keyword: 尾張瀬戸
     destination: 尾張瀬戸
     fallback: manual
