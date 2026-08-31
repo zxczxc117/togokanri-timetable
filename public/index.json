@@ -1,6 +1,6 @@
 {
  "schemaVersion": 2,
- "generatedAt": "2026-08-31T21:56:13+09:00",
+ "generatedAt": "2026-08-31T23:13:34+09:00",
  "updatedDate": "2026-08-31",
  "publisher": "togokanri-timetable",
  "lines": [
@@ -14,8 +14,8 @@
      "directionName": "栄町方面",
      "revision": "",
      "updatedDate": "2026-08-31",
-     "contentHash": "cb811c56b3976fb1",
-     "source": "manual(fallback)",
+     "contentHash": "33f86bf1f796ceb1",
+     "source": "meitetsu",
      "sourceUrl": "https://trainbus.meitetsu.co.jp/meitetsu-transfer/pc/diagram/TrainDiagram?startId=00003449&linkId=00000871&direction=up",
      "directionKey": "up",
      "kinds": [
@@ -24,127 +24,87 @@
      "diagrams": {
       "WEEKDAY": [
        {
-        "time": "05:00",
+        "time": "05:30",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "05:20",
+        "time": "05:47",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "05:40",
+        "time": "06:04",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "06:00",
+        "time": "06:19",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "06:08",
+        "time": "06:34",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "06:15",
+        "time": "06:44",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "06:22",
+        "time": "06:54",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "06:30",
+        "time": "07:08",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "06:38",
+        "time": "07:18",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "06:45",
+        "time": "07:28",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "06:52",
+        "time": "07:38",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "07:00",
+        "time": "07:43",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "07:05",
+        "time": "07:48",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "07:10",
+        "time": "07:52",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "07:15",
+        "time": "07:57",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "07:20",
+        "time": "08:01",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "07:25",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "07:30",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "07:35",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "07:40",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "07:45",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "07:50",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "07:55",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "08:00",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "08:05",
+        "time": "08:06",
         "kind": "普通",
         "destination": "栄町"
        },
@@ -159,1241 +119,7 @@
         "destination": "栄町"
        },
        {
-        "time": "08:20",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "08:25",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "08:30",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "08:35",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "08:40",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "08:45",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "08:50",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "08:55",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "09:00",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "09:08",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "09:15",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "09:22",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "09:30",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "09:38",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "09:45",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "09:52",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "10:00",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "10:10",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "10:20",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "10:30",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "10:40",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "10:50",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "11:00",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "11:10",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "11:20",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "11:30",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "11:40",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "11:50",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "12:00",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "12:10",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "12:20",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "12:30",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "12:40",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "12:50",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "13:00",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "13:10",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "13:20",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "13:30",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "13:40",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "13:50",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "14:00",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "14:10",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "14:20",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "14:30",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "14:40",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "14:50",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "15:00",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "15:10",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "15:20",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "15:30",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "15:40",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "15:50",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "16:00",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "16:08",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "16:15",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "16:22",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "16:30",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "16:38",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "16:45",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "16:52",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "17:00",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "17:05",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "17:10",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "17:15",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "17:20",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "17:25",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "17:30",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "17:35",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "17:40",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "17:45",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "17:50",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "17:55",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "18:00",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "18:05",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "18:10",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "18:15",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "18:20",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "18:25",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "18:30",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "18:35",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "18:40",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "18:45",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "18:50",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "18:55",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "19:00",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "19:08",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "19:15",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "19:22",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "19:30",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "19:38",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "19:45",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "19:52",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "20:00",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "20:08",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "20:15",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "20:22",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "20:30",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "20:38",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "20:45",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "20:52",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "21:00",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "21:10",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "21:20",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "21:30",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "21:40",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "21:50",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "22:00",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "22:10",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "22:20",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "22:30",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "22:40",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "22:50",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "23:00",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "23:20",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "23:40",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "24:00",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "24:20",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "24:40",
-        "kind": "普通",
-        "destination": "栄町"
-       }
-      ],
-      "SATURDAY": [
-       {
-        "time": "05:00",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "05:15",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "05:30",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "05:45",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "06:00",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "06:10",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "06:20",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "06:30",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "06:40",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "06:50",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "07:00",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "07:10",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "07:20",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "07:30",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "07:40",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "07:50",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "08:00",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "08:10",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "08:20",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "08:30",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "08:40",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "08:50",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "09:00",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "09:10",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "09:20",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "09:30",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "09:40",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "09:50",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "10:00",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "10:10",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "10:20",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "10:30",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "10:40",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "10:50",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "11:00",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "11:10",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "11:20",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "11:30",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "11:40",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "11:50",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "12:00",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "12:10",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "12:20",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "12:30",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "12:40",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "12:50",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "13:00",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "13:10",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "13:20",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "13:30",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "13:40",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "13:50",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "14:00",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "14:10",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "14:20",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "14:30",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "14:40",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "14:50",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "15:00",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "15:10",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "15:20",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "15:30",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "15:40",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "15:50",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "16:00",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "16:10",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "16:20",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "16:30",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "16:40",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "16:50",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "17:00",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "17:10",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "17:20",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "17:30",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "17:40",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "17:50",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "18:00",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "18:10",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "18:20",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "18:30",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "18:40",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "18:50",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "19:00",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "19:10",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "19:20",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "19:30",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "19:40",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "19:50",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "20:00",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "20:10",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "20:20",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "20:30",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "20:40",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "20:50",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "21:00",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "21:10",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "21:20",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "21:30",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "21:40",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "21:50",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "22:00",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "22:10",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "22:20",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "22:30",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "22:40",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "22:50",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "23:00",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "23:15",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "23:30",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "23:45",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "24:00",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "24:15",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "24:30",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "24:45",
-        "kind": "普通",
-        "destination": "栄町"
-       }
-      ],
-      "HOLIDAY": [
-       {
-        "time": "05:00",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "05:20",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "05:40",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "06:00",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "06:12",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "06:24",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "06:36",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "06:48",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "07:00",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "07:12",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "07:24",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "07:36",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "07:48",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "08:00",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "08:12",
+        "time": "08:19",
         "kind": "普通",
         "destination": "栄町"
        },
@@ -1403,17 +129,32 @@
         "destination": "栄町"
        },
        {
-        "time": "08:36",
+        "time": "08:28",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "08:48",
+        "time": "08:33",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "09:00",
+        "time": "08:38",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "08:43",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "08:49",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "08:58",
         "kind": "普通",
         "destination": "栄町"
        },
@@ -1423,22 +164,17 @@
         "destination": "栄町"
        },
        {
-        "time": "09:24",
+        "time": "09:27",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "09:36",
+        "time": "09:42",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "09:48",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "10:00",
+        "time": "09:57",
         "kind": "普通",
         "destination": "栄町"
        },
@@ -1448,22 +184,27 @@
         "destination": "栄町"
        },
        {
-        "time": "10:24",
+        "time": "10:23",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "10:36",
+        "time": "10:32",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "10:48",
+        "time": "10:42",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "11:00",
+        "time": "10:52",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "11:02",
         "kind": "普通",
         "destination": "栄町"
        },
@@ -1473,22 +214,27 @@
         "destination": "栄町"
        },
        {
-        "time": "11:24",
+        "time": "11:22",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "11:36",
+        "time": "11:32",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "11:48",
+        "time": "11:42",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "12:00",
+        "time": "11:52",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "12:02",
         "kind": "普通",
         "destination": "栄町"
        },
@@ -1498,22 +244,27 @@
         "destination": "栄町"
        },
        {
-        "time": "12:24",
+        "time": "12:22",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "12:36",
+        "time": "12:32",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "12:48",
+        "time": "12:42",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "13:00",
+        "time": "12:52",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "13:02",
         "kind": "普通",
         "destination": "栄町"
        },
@@ -1523,22 +274,27 @@
         "destination": "栄町"
        },
        {
-        "time": "13:24",
+        "time": "13:22",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "13:36",
+        "time": "13:32",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "13:48",
+        "time": "13:42",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "14:00",
+        "time": "13:52",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "14:02",
         "kind": "普通",
         "destination": "栄町"
        },
@@ -1548,22 +304,27 @@
         "destination": "栄町"
        },
        {
-        "time": "14:24",
+        "time": "14:22",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "14:36",
+        "time": "14:32",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "14:48",
+        "time": "14:42",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "15:00",
+        "time": "14:52",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "15:02",
         "kind": "普通",
         "destination": "栄町"
        },
@@ -1573,7 +334,7 @@
         "destination": "栄町"
        },
        {
-        "time": "15:24",
+        "time": "15:22",
         "kind": "普通",
         "destination": "栄町"
        },
@@ -1583,22 +344,17 @@
         "destination": "栄町"
        },
        {
-        "time": "15:48",
+        "time": "15:53",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "16:00",
+        "time": "16:06",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "16:12",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "16:24",
+        "time": "16:23",
         "kind": "普通",
         "destination": "栄町"
        },
@@ -1608,22 +364,17 @@
         "destination": "栄町"
        },
        {
-        "time": "16:48",
+        "time": "16:53",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "17:00",
+        "time": "17:06",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "17:12",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "17:24",
+        "time": "17:23",
         "kind": "普通",
         "destination": "栄町"
        },
@@ -1633,87 +384,72 @@
         "destination": "栄町"
        },
        {
-        "time": "17:48",
+        "time": "17:53",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "18:00",
+        "time": "18:06",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "18:12",
+        "time": "18:22",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "18:24",
+        "time": "18:37",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "18:36",
+        "time": "18:52",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "18:48",
+        "time": "19:07",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "19:00",
+        "time": "19:22",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "19:12",
+        "time": "19:37",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "19:24",
+        "time": "19:52",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "19:36",
+        "time": "20:07",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "19:48",
+        "time": "20:22",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "20:00",
+        "time": "20:37",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "20:12",
+        "time": "20:52",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "20:24",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "20:36",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "20:48",
-        "kind": "普通",
-        "destination": "栄町"
-       },
-       {
-        "time": "21:00",
+        "time": "21:02",
         "kind": "普通",
         "destination": "栄町"
        },
@@ -1723,47 +459,47 @@
         "destination": "栄町"
        },
        {
-        "time": "21:24",
+        "time": "21:22",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "21:36",
+        "time": "21:34",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "21:48",
+        "time": "21:46",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "22:00",
+        "time": "21:58",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "22:12",
+        "time": "22:10",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "22:24",
+        "time": "22:22",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "22:36",
+        "time": "22:37",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "22:48",
+        "time": "22:52",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "23:00",
+        "time": "23:07",
         "kind": "普通",
         "destination": "栄町"
        },
@@ -1773,22 +509,951 @@
         "destination": "栄町"
        },
        {
-        "time": "23:40",
+        "time": "23:34",
+        "kind": "普通",
+        "destination": "栄町"
+       }
+      ],
+      "SATURDAY": [
+       {
+        "time": "05:30",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "24:00",
+        "time": "05:47",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "24:20",
+        "time": "06:06",
         "kind": "普通",
         "destination": "栄町"
        },
        {
-        "time": "24:40",
+        "time": "06:24",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "06:38",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "06:47",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "06:55",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "07:02",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "07:10",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "07:17",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "07:25",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "07:32",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "07:40",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "07:47",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "07:55",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "08:02",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "08:10",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "08:17",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "08:25",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "08:32",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "08:40",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "08:47",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "08:57",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "09:10",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "09:23",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "09:36",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "09:53",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "10:08",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "10:22",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "10:32",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "10:42",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "10:52",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "11:02",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "11:12",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "11:22",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "11:32",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "11:42",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "11:52",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "12:02",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "12:12",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "12:22",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "12:32",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "12:42",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "12:52",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "13:02",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "13:12",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "13:22",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "13:32",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "13:42",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "13:52",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "14:02",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "14:12",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "14:22",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "14:32",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "14:42",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "14:52",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "15:02",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "15:12",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "15:22",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "15:36",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "15:53",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "16:06",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "16:23",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "16:36",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "16:53",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "17:06",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "17:23",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "17:36",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "17:53",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "18:06",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "18:23",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "18:36",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "18:53",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "19:06",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "19:23",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "19:33",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "19:43",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "19:53",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "20:05",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "20:17",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "20:29",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "20:41",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "20:53",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "21:08",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "21:23",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "21:38",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "21:53",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "22:08",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "22:23",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "22:37",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "22:52",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "23:07",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "23:20",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "23:34",
+        "kind": "普通",
+        "destination": "栄町"
+       }
+      ],
+      "HOLIDAY": [
+       {
+        "time": "05:30",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "05:47",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "06:06",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "06:24",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "06:38",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "06:47",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "06:55",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "07:02",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "07:10",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "07:17",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "07:25",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "07:32",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "07:40",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "07:47",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "07:55",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "08:02",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "08:10",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "08:17",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "08:25",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "08:32",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "08:40",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "08:47",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "08:57",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "09:10",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "09:23",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "09:36",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "09:53",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "10:08",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "10:22",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "10:32",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "10:42",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "10:52",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "11:02",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "11:12",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "11:22",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "11:32",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "11:42",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "11:52",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "12:02",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "12:12",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "12:22",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "12:32",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "12:42",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "12:52",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "13:02",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "13:12",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "13:22",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "13:32",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "13:42",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "13:52",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "14:02",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "14:12",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "14:22",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "14:32",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "14:42",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "14:52",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "15:02",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "15:12",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "15:22",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "15:36",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "15:53",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "16:06",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "16:23",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "16:36",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "16:53",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "17:06",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "17:23",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "17:36",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "17:53",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "18:06",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "18:23",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "18:36",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "18:53",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "19:06",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "19:23",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "19:33",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "19:43",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "19:53",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "20:05",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "20:17",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "20:29",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "20:41",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "20:53",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "21:08",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "21:23",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "21:38",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "21:53",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "22:08",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "22:23",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "22:37",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "22:52",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "23:07",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "23:20",
+        "kind": "普通",
+        "destination": "栄町"
+       },
+       {
+        "time": "23:34",
         "kind": "普通",
         "destination": "栄町"
        }
@@ -1801,8 +1466,8 @@
      "directionName": "尾張瀬戸方面",
      "revision": "",
      "updatedDate": "2026-08-31",
-     "contentHash": "b334b3a42de21431",
-     "source": "manual(fallback)",
+     "contentHash": "4d832df87ac97337",
+     "source": "meitetsu",
      "sourceUrl": "https://trainbus.meitetsu.co.jp/meitetsu-transfer/pc/diagram/TrainDiagram?startId=00003449&linkId=00000871&direction=down",
      "directionKey": "down",
      "kinds": [
@@ -1811,1336 +1476,22 @@
      "diagrams": {
       "WEEKDAY": [
        {
-        "time": "05:00",
+        "time": "00:13",
         "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "05:20",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "05:40",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "06:00",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "06:08",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "06:15",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "06:22",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "06:30",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "06:38",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "06:45",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "06:52",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "07:00",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "07:05",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "07:10",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "07:15",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "07:20",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "07:25",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "07:30",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "07:35",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "07:40",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "07:45",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "07:50",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "07:55",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "08:00",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "08:05",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "08:10",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "08:15",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "08:20",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "08:25",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "08:30",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "08:35",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "08:40",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "08:45",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "08:50",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "08:55",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "09:00",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "09:08",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "09:15",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "09:22",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "09:30",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "09:38",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "09:45",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "09:52",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "10:00",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "10:10",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "10:20",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "10:30",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "10:40",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "10:50",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "11:00",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "11:10",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "11:20",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "11:30",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "11:40",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "11:50",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "12:00",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "12:10",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "12:20",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "12:30",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "12:40",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "12:50",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "13:00",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "13:10",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "13:20",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "13:30",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "13:40",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "13:50",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "14:00",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "14:10",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "14:20",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "14:30",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "14:40",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "14:50",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "15:00",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "15:10",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "15:20",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "15:30",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "15:40",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "15:50",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "16:00",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "16:08",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "16:15",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "16:22",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "16:30",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "16:38",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "16:45",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "16:52",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "17:00",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "17:05",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "17:10",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "17:15",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "17:20",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "17:25",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "17:30",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "17:35",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "17:40",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "17:45",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "17:50",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "17:55",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "18:00",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "18:05",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "18:10",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "18:15",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "18:20",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "18:25",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "18:30",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "18:35",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "18:40",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "18:45",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "18:50",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "18:55",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "19:00",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "19:08",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "19:15",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "19:22",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "19:30",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "19:38",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "19:45",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "19:52",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "20:00",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "20:08",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "20:15",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "20:22",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "20:30",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "20:38",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "20:45",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "20:52",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "21:00",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "21:10",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "21:20",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "21:30",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "21:40",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "21:50",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "22:00",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "22:10",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "22:20",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "22:30",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "22:40",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "22:50",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "23:00",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "23:20",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "23:40",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "24:00",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "24:20",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "24:40",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       }
-      ],
-      "SATURDAY": [
-       {
-        "time": "05:00",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "05:15",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "05:30",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "05:45",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "06:00",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "06:10",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "06:20",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "06:30",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "06:40",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "06:50",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "07:00",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "07:10",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "07:20",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "07:30",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "07:40",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "07:50",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "08:00",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "08:10",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "08:20",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "08:30",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "08:40",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "08:50",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "09:00",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "09:10",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "09:20",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "09:30",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "09:40",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "09:50",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "10:00",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "10:10",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "10:20",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "10:30",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "10:40",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "10:50",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "11:00",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "11:10",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "11:20",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "11:30",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "11:40",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "11:50",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "12:00",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "12:10",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "12:20",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "12:30",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "12:40",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "12:50",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "13:00",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "13:10",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "13:20",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "13:30",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "13:40",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "13:50",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "14:00",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "14:10",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "14:20",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "14:30",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "14:40",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "14:50",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "15:00",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "15:10",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "15:20",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "15:30",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "15:40",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "15:50",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "16:00",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "16:10",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "16:20",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "16:30",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "16:40",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "16:50",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "17:00",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "17:10",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "17:20",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "17:30",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "17:40",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "17:50",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "18:00",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "18:10",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "18:20",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "18:30",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "18:40",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "18:50",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "19:00",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "19:10",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "19:20",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "19:30",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "19:40",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "19:50",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "20:00",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "20:10",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "20:20",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "20:30",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "20:40",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "20:50",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "21:00",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "21:10",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "21:20",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "21:30",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "21:40",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "21:50",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "22:00",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "22:10",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "22:20",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "22:30",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "22:40",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "22:50",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "23:00",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "23:15",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "23:30",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "23:45",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "24:00",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "24:15",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "24:30",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "24:45",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       }
-      ],
-      "HOLIDAY": [
-       {
-        "time": "05:00",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "05:20",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "05:40",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "06:00",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
+        "destination": "喜多山"
        },
        {
-        "time": "06:12",
+        "time": "06:03",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "06:24",
+        "time": "06:19",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "06:36",
+        "time": "06:35",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
@@ -3150,37 +1501,47 @@
         "destination": "尾張瀬戸"
        },
        {
-        "time": "07:00",
+        "time": "06:58",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "07:12",
+        "time": "07:08",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "07:24",
+        "time": "07:17",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "07:36",
+        "time": "07:30",
+        "kind": "普通",
+        "destination": "尾張旭"
+       },
+       {
+        "time": "07:41",
+        "kind": "普通",
+        "destination": "尾張旭"
+       },
+       {
+        "time": "07:51",
+        "kind": "普通",
+        "destination": "尾張旭"
+       },
+       {
+        "time": "08:01",
+        "kind": "普通",
+        "destination": "尾張旭"
+       },
+       {
+        "time": "08:15",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "07:48",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "08:00",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "08:12",
+        "time": "08:19",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
@@ -3190,7 +1551,514 @@
         "destination": "尾張瀬戸"
        },
        {
-        "time": "08:36",
+        "time": "08:28",
+        "kind": "普通",
+        "destination": "喜多山"
+       },
+       {
+        "time": "08:33",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "08:37",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "08:42",
+        "kind": "普通",
+        "destination": "尾張旭"
+       },
+       {
+        "time": "08:46",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "08:51",
+        "kind": "普通",
+        "destination": "尾張旭"
+       },
+       {
+        "time": "08:55",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "09:00",
+        "kind": "普通",
+        "destination": "尾張旭"
+       },
+       {
+        "time": "09:06",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "09:13",
+        "kind": "普通",
+        "destination": "尾張旭"
+       },
+       {
+        "time": "09:26",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "09:30",
+        "kind": "普通",
+        "destination": "尾張旭"
+       },
+       {
+        "time": "09:43",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "09:58",
+        "kind": "普通",
+        "destination": "尾張旭"
+       },
+       {
+        "time": "10:13",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "10:28",
+        "kind": "普通",
+        "destination": "尾張旭"
+       },
+       {
+        "time": "10:43",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "10:53",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "11:03",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "11:13",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "11:23",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "11:33",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "11:43",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "11:53",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "12:03",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "12:13",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "12:23",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "12:33",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "12:43",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "12:53",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "13:03",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "13:13",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "13:23",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "13:33",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "13:43",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "13:53",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "14:03",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "14:13",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "14:23",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "14:33",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "14:43",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "14:53",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "15:03",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "15:13",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "15:23",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "15:33",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "15:43",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "15:58",
+        "kind": "普通",
+        "destination": "尾張旭"
+       },
+       {
+        "time": "16:13",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "16:28",
+        "kind": "普通",
+        "destination": "尾張旭"
+       },
+       {
+        "time": "16:43",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "16:58",
+        "kind": "普通",
+        "destination": "尾張旭"
+       },
+       {
+        "time": "17:13",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "17:28",
+        "kind": "普通",
+        "destination": "尾張旭"
+       },
+       {
+        "time": "17:43",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "17:58",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "18:13",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "18:28",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "18:43",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "18:58",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "19:13",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "19:28",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "19:43",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "19:58",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "20:13",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "20:28",
+        "kind": "普通",
+        "destination": "尾張旭"
+       },
+       {
+        "time": "20:43",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "20:53",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "21:03",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "21:13",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "21:23",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "21:33",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "21:43",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "21:55",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "22:07",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "22:19",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "22:31",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "22:43",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "22:58",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "23:13",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "23:28",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "23:43",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "23:58",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       }
+      ],
+      "SATURDAY": [
+       {
+        "time": "00:13",
+        "kind": "普通",
+        "destination": "喜多山"
+       },
+       {
+        "time": "06:03",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "06:18",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "06:33",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "06:48",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "06:58",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "07:08",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "07:18",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "07:25",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "07:33",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "07:40",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "07:48",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "07:55",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "08:03",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "08:10",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "08:18",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "08:25",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "08:33",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "08:40",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
@@ -3200,382 +2068,854 @@
         "destination": "尾張瀬戸"
        },
        {
-        "time": "09:00",
+        "time": "08:55",
         "kind": "普通",
+        "destination": "尾張旭"
+       },
+       {
+        "time": "09:03",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "09:13",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "09:28",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "09:43",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "09:58",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "10:13",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "10:28",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "10:43",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "10:53",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "11:03",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "11:13",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "11:23",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "11:33",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "11:43",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "11:53",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "12:03",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "12:13",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "12:23",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "12:33",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "12:43",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "12:53",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "13:03",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "13:13",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "13:23",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "13:33",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "13:43",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "13:53",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "14:03",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "14:13",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "14:23",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "14:33",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "14:43",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "14:53",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "15:03",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "15:13",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "15:23",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "15:33",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "15:43",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "15:58",
+        "kind": "普通",
+        "destination": "尾張旭"
+       },
+       {
+        "time": "16:13",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "16:28",
+        "kind": "普通",
+        "destination": "尾張旭"
+       },
+       {
+        "time": "16:43",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "16:58",
+        "kind": "普通",
+        "destination": "尾張旭"
+       },
+       {
+        "time": "17:13",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "17:28",
+        "kind": "普通",
+        "destination": "尾張旭"
+       },
+       {
+        "time": "17:43",
+        "kind": "普通",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "09:12",
+        "time": "17:58",
         "kind": "普通",
+        "destination": "尾張旭"
+       },
+       {
+        "time": "18:13",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "18:28",
+        "kind": "普通",
+        "destination": "尾張旭"
+       },
+       {
+        "time": "18:43",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "18:58",
+        "kind": "普通",
+        "destination": "尾張旭"
+       },
+       {
+        "time": "19:13",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "19:23",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "19:33",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "19:43",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "19:53",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "20:03",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "20:13",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "20:25",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "20:37",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "20:49",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "21:01",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "21:13",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "21:28",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "21:43",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "21:58",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "22:13",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "22:28",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "22:43",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "22:58",
+        "kind": "普通",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "09:24",
+        "time": "23:13",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "09:36",
+        "time": "23:28",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "09:48",
+        "time": "23:43",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "10:00",
+        "time": "23:58",
         "kind": "普通",
         "destination": "尾張瀬戸"
+       }
+      ],
+      "HOLIDAY": [
+       {
+        "time": "00:13",
+        "kind": "普通",
+        "destination": "喜多山"
+       },
+       {
+        "time": "06:03",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "06:18",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "06:33",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "06:48",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "06:58",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "07:08",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "07:18",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "07:25",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "07:33",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "07:40",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "07:48",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "07:55",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "08:03",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "08:10",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "08:18",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "08:25",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
        },
        {
-        "time": "10:12",
+        "time": "08:33",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "10:24",
+        "time": "08:40",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "10:36",
+        "time": "08:48",
         "kind": "普通",
         "destination": "尾張瀬戸"
+       },
+       {
+        "time": "08:55",
+        "kind": "普通",
+        "destination": "尾張旭"
        },
        {
-        "time": "10:48",
+        "time": "09:03",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "11:00",
+        "time": "09:13",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "11:12",
+        "time": "09:28",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "11:24",
+        "time": "09:43",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "11:36",
+        "time": "09:58",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "11:48",
+        "time": "10:13",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "12:00",
+        "time": "10:28",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "12:12",
+        "time": "10:43",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "12:24",
+        "time": "10:53",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "12:36",
+        "time": "11:03",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "12:48",
+        "time": "11:13",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "13:00",
+        "time": "11:23",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "13:12",
+        "time": "11:33",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "13:24",
+        "time": "11:43",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "13:36",
+        "time": "11:53",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "13:48",
+        "time": "12:03",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "14:00",
+        "time": "12:13",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "14:12",
+        "time": "12:23",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "14:24",
+        "time": "12:33",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "14:36",
+        "time": "12:43",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "14:48",
+        "time": "12:53",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "15:00",
+        "time": "13:03",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "15:12",
+        "time": "13:13",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "15:24",
+        "time": "13:23",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "15:36",
+        "time": "13:33",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "15:48",
+        "time": "13:43",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "16:00",
+        "time": "13:53",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "16:12",
+        "time": "14:03",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "16:24",
+        "time": "14:13",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "16:36",
+        "time": "14:23",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "16:48",
+        "time": "14:33",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "17:00",
+        "time": "14:43",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "17:12",
+        "time": "14:53",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "17:24",
+        "time": "15:03",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "17:36",
+        "time": "15:13",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "17:48",
+        "time": "15:23",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "18:00",
+        "time": "15:33",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "18:12",
+        "time": "15:43",
         "kind": "普通",
         "destination": "尾張瀬戸"
+       },
+       {
+        "time": "15:58",
+        "kind": "普通",
+        "destination": "尾張旭"
        },
        {
-        "time": "18:24",
+        "time": "16:13",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "18:36",
+        "time": "16:28",
         "kind": "普通",
+        "destination": "尾張旭"
+       },
+       {
+        "time": "16:43",
+        "kind": "普通",
         "destination": "尾張瀬戸"
+       },
+       {
+        "time": "16:58",
+        "kind": "普通",
+        "destination": "尾張旭"
        },
        {
-        "time": "18:48",
+        "time": "17:13",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "19:00",
+        "time": "17:28",
         "kind": "普通",
+        "destination": "尾張旭"
+       },
+       {
+        "time": "17:43",
+        "kind": "普通",
         "destination": "尾張瀬戸"
+       },
+       {
+        "time": "17:58",
+        "kind": "普通",
+        "destination": "尾張旭"
        },
        {
-        "time": "19:12",
+        "time": "18:13",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "19:24",
+        "time": "18:28",
         "kind": "普通",
+        "destination": "尾張旭"
+       },
+       {
+        "time": "18:43",
+        "kind": "普通",
         "destination": "尾張瀬戸"
+       },
+       {
+        "time": "18:58",
+        "kind": "普通",
+        "destination": "尾張旭"
        },
        {
-        "time": "19:36",
+        "time": "19:13",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "19:48",
+        "time": "19:23",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "20:00",
+        "time": "19:33",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "20:12",
+        "time": "19:43",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "20:24",
+        "time": "19:53",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "20:36",
+        "time": "20:03",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "20:48",
+        "time": "20:13",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "21:00",
+        "time": "20:25",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "21:12",
+        "time": "20:37",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "21:24",
+        "time": "20:49",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "21:36",
+        "time": "21:01",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "21:48",
+        "time": "21:13",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "22:00",
+        "time": "21:28",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "22:12",
+        "time": "21:43",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "22:24",
+        "time": "21:58",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "22:36",
+        "time": "22:13",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "22:48",
+        "time": "22:28",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "23:00",
+        "time": "22:43",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "23:20",
+        "time": "22:58",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "23:40",
+        "time": "23:13",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "24:00",
+        "time": "23:28",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "24:20",
+        "time": "23:43",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "24:40",
+        "time": "23:58",
         "kind": "普通",
         "destination": "尾張瀬戸"
        }
@@ -3587,43 +2927,30 @@
      "stationName": "栄町",
      "directionName": "尾張瀬戸方面",
      "revision": "",
-     "updatedDate": "2026-08-13",
-     "contentHash": "b334b3a42de21431",
-     "source": "manual(fallback)",
-     "sourceUrl": "",
+     "updatedDate": "2026-08-31",
+     "contentHash": "df284ee7f9427e2f",
+     "source": "meitetsu",
+     "sourceUrl": "https://trainbus.meitetsu.co.jp/meitetsu-transfer/pc/diagram/TrainDiagram?startId=00000655&linkId=00000871&direction=down",
      "directionKey": "down",
      "kinds": [
-      "普通"
+      "普通",
+      "準急",
+      "急行"
      ],
      "diagrams": {
       "WEEKDAY": [
        {
-        "time": "05:00",
+        "time": "00:00",
+        "kind": "普通",
+        "destination": "喜多山"
+       },
+       {
+        "time": "05:50",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "05:20",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "05:40",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "06:00",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "06:08",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "06:15",
+        "time": "06:06",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
@@ -3633,12 +2960,7 @@
         "destination": "尾張瀬戸"
        },
        {
-        "time": "06:30",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "06:38",
+        "time": "06:35",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
@@ -3648,89 +2970,79 @@
         "destination": "尾張瀬戸"
        },
        {
-        "time": "06:52",
+        "time": "06:55",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "07:00",
+        "time": "07:04",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "07:05",
-        "kind": "普通",
+        "time": "07:14",
+        "kind": "準急",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "07:10",
+        "time": "07:17",
         "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "07:15",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "07:20",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
+        "destination": "尾張旭"
        },
        {
         "time": "07:25",
-        "kind": "普通",
+        "kind": "準急",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "07:30",
+        "time": "07:28",
         "kind": "普通",
-        "destination": "尾張瀬戸"
+        "destination": "尾張旭"
        },
        {
         "time": "07:35",
-        "kind": "普通",
+        "kind": "準急",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "07:40",
+        "time": "07:38",
         "kind": "普通",
-        "destination": "尾張瀬戸"
+        "destination": "尾張旭"
        },
        {
         "time": "07:45",
+        "kind": "準急",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "07:48",
+        "kind": "普通",
+        "destination": "尾張旭"
+       },
+       {
+        "time": "07:56",
+        "kind": "準急",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "08:02",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "07:50",
+        "time": "08:06",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "07:55",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "08:00",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "08:05",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "08:10",
+        "time": "08:11",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
        {
         "time": "08:15",
         "kind": "普通",
-        "destination": "尾張瀬戸"
+        "destination": "喜多山"
        },
        {
         "time": "08:20",
@@ -3738,715 +3050,63 @@
         "destination": "尾張瀬戸"
        },
        {
-        "time": "08:25",
+        "time": "08:24",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "08:30",
+        "time": "08:29",
+        "kind": "普通",
+        "destination": "尾張旭"
+       },
+       {
+        "time": "08:33",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "08:35",
+        "time": "08:38",
+        "kind": "普通",
+        "destination": "尾張旭"
+       },
+       {
+        "time": "08:42",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "08:40",
+        "time": "08:47",
         "kind": "普通",
-        "destination": "尾張瀬戸"
+        "destination": "尾張旭"
        },
        {
-        "time": "08:45",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "08:50",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "08:55",
+        "time": "08:53",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
        {
         "time": "09:00",
         "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "09:08",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "09:15",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "09:22",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "09:30",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "09:38",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "09:45",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "09:52",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "10:00",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "10:10",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "10:20",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "10:30",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "10:40",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "10:50",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "11:00",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "11:10",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "11:20",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "11:30",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "11:40",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "11:50",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "12:00",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "12:10",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "12:20",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "12:30",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "12:40",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "12:50",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "13:00",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "13:10",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "13:20",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "13:30",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "13:40",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "13:50",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "14:00",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "14:10",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "14:20",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "14:30",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "14:40",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "14:50",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "15:00",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "15:10",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "15:20",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "15:30",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "15:40",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "15:50",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "16:00",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "16:08",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "16:15",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "16:22",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "16:30",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "16:38",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "16:45",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "16:52",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "17:00",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "17:05",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "17:10",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "17:15",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "17:20",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "17:25",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "17:30",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "17:35",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "17:40",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "17:45",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "17:50",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "17:55",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "18:00",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "18:05",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "18:10",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "18:15",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "18:20",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "18:25",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "18:30",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "18:35",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "18:40",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "18:45",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "18:50",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "18:55",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "19:00",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "19:08",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "19:15",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "19:22",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "19:30",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "19:38",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "19:45",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "19:52",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "20:00",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "20:08",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "20:15",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "20:22",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "20:30",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "20:38",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "20:45",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "20:52",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "21:00",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "21:10",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "21:20",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "21:30",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "21:40",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "21:50",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "22:00",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "22:10",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "22:20",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "22:30",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "22:40",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "22:50",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "23:00",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "23:20",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "23:40",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "24:00",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "24:20",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "24:40",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       }
-      ],
-      "SATURDAY": [
-       {
-        "time": "05:00",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "05:15",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "05:30",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "05:45",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "06:00",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "06:10",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "06:20",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "06:30",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "06:40",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "06:50",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "07:00",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "07:10",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "07:20",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "07:30",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "07:40",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "07:50",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "08:00",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "08:10",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "08:20",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "08:30",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "08:40",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
+        "destination": "尾張旭"
        },
        {
-        "time": "08:50",
-        "kind": "普通",
+        "time": "09:09",
+        "kind": "急行",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "09:00",
+        "time": "09:13",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "09:10",
+        "time": "09:17",
         "kind": "普通",
-        "destination": "尾張瀬戸"
+        "destination": "尾張旭"
        },
        {
-        "time": "09:20",
-        "kind": "普通",
+        "time": "09:25",
+        "kind": "急行",
         "destination": "尾張瀬戸"
        },
        {
@@ -4456,12 +3116,17 @@
        },
        {
         "time": "09:40",
-        "kind": "普通",
+        "kind": "急行",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "09:50",
+        "time": "09:45",
         "kind": "普通",
+        "destination": "尾張旭"
+       },
+       {
+        "time": "09:55",
+        "kind": "急行",
         "destination": "尾張瀬戸"
        },
        {
@@ -4471,12 +3136,17 @@
        },
        {
         "time": "10:10",
-        "kind": "普通",
+        "kind": "準急",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "10:20",
+        "time": "10:15",
         "kind": "普通",
+        "destination": "尾張旭"
+       },
+       {
+        "time": "10:25",
+        "kind": "急行",
         "destination": "尾張瀬戸"
        },
        {
@@ -4636,12 +3306,17 @@
        },
        {
         "time": "15:40",
-        "kind": "普通",
+        "kind": "準急",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "15:50",
+        "time": "15:45",
         "kind": "普通",
+        "destination": "尾張旭"
+       },
+       {
+        "time": "15:55",
+        "kind": "急行",
         "destination": "尾張瀬戸"
        },
        {
@@ -4651,12 +3326,17 @@
        },
        {
         "time": "16:10",
-        "kind": "普通",
+        "kind": "準急",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "16:20",
+        "time": "16:15",
         "kind": "普通",
+        "destination": "尾張旭"
+       },
+       {
+        "time": "16:25",
+        "kind": "急行",
         "destination": "尾張瀬戸"
        },
        {
@@ -4666,12 +3346,17 @@
        },
        {
         "time": "16:40",
-        "kind": "普通",
+        "kind": "準急",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "16:50",
+        "time": "16:45",
         "kind": "普通",
+        "destination": "尾張旭"
+       },
+       {
+        "time": "16:55",
+        "kind": "急行",
         "destination": "尾張瀬戸"
        },
        {
@@ -4681,12 +3366,17 @@
        },
        {
         "time": "17:10",
-        "kind": "普通",
+        "kind": "準急",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "17:20",
+        "time": "17:15",
         "kind": "普通",
+        "destination": "尾張旭"
+       },
+       {
+        "time": "17:25",
+        "kind": "急行",
         "destination": "尾張瀬戸"
        },
        {
@@ -4696,12 +3386,17 @@
        },
        {
         "time": "17:40",
+        "kind": "準急",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "17:45",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "17:50",
-        "kind": "普通",
+        "time": "17:55",
+        "kind": "準急",
         "destination": "尾張瀬戸"
        },
        {
@@ -4711,12 +3406,17 @@
        },
        {
         "time": "18:10",
+        "kind": "準急",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "18:15",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "18:20",
-        "kind": "普通",
+        "time": "18:25",
+        "kind": "準急",
         "destination": "尾張瀬戸"
        },
        {
@@ -4726,12 +3426,17 @@
        },
        {
         "time": "18:40",
+        "kind": "準急",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "18:45",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "18:50",
-        "kind": "普通",
+        "time": "18:55",
+        "kind": "準急",
         "destination": "尾張瀬戸"
        },
        {
@@ -4741,12 +3446,17 @@
        },
        {
         "time": "19:10",
+        "kind": "準急",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "19:15",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "19:20",
-        "kind": "普通",
+        "time": "19:25",
+        "kind": "準急",
         "destination": "尾張瀬戸"
        },
        {
@@ -4756,12 +3466,17 @@
        },
        {
         "time": "19:40",
+        "kind": "準急",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "19:45",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "19:50",
-        "kind": "普通",
+        "time": "19:55",
+        "kind": "準急",
         "destination": "尾張瀬戸"
        },
        {
@@ -4771,12 +3486,17 @@
        },
        {
         "time": "20:10",
-        "kind": "普通",
+        "kind": "準急",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "20:20",
+        "time": "20:15",
         "kind": "普通",
+        "destination": "尾張旭"
+       },
+       {
+        "time": "20:25",
+        "kind": "準急",
         "destination": "尾張瀬戸"
        },
        {
@@ -4815,27 +3535,22 @@
         "destination": "尾張瀬戸"
        },
        {
-        "time": "21:40",
+        "time": "21:42",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "21:50",
+        "time": "21:54",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "22:00",
+        "time": "22:06",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "22:10",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "22:20",
+        "time": "22:18",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
@@ -4845,12 +3560,7 @@
         "destination": "尾張瀬戸"
        },
        {
-        "time": "22:40",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "22:50",
+        "time": "22:45",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
@@ -4873,71 +3583,46 @@
         "time": "23:45",
         "kind": "普通",
         "destination": "尾張瀬戸"
-       },
-       {
-        "time": "24:00",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "24:15",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "24:30",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "24:45",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
        }
       ],
-      "HOLIDAY": [
+      "SATURDAY": [
        {
-        "time": "05:00",
+        "time": "00:00",
+        "kind": "普通",
+        "destination": "喜多山"
+       },
+       {
+        "time": "05:50",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "05:20",
+        "time": "06:05",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "05:40",
+        "time": "06:20",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "06:00",
+        "time": "06:35",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "06:12",
+        "time": "06:45",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "06:24",
+        "time": "06:55",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "06:36",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "06:48",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "07:00",
+        "time": "07:05",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
@@ -4947,22 +3632,37 @@
         "destination": "尾張瀬戸"
        },
        {
-        "time": "07:24",
+        "time": "07:20",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "07:36",
+        "time": "07:27",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "07:48",
+        "time": "07:35",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "08:00",
+        "time": "07:42",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "07:50",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "07:57",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "08:05",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
@@ -4972,17 +3672,27 @@
         "destination": "尾張瀬戸"
        },
        {
-        "time": "08:24",
+        "time": "08:20",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "08:36",
+        "time": "08:27",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "08:48",
+        "time": "08:35",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "08:42",
+        "kind": "普通",
+        "destination": "尾張旭"
+       },
+       {
+        "time": "08:50",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
@@ -4992,22 +3702,27 @@
         "destination": "尾張瀬戸"
        },
        {
-        "time": "09:12",
+        "time": "09:10",
+        "kind": "急行",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "09:15",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "09:24",
+        "time": "09:30",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "09:36",
-        "kind": "普通",
+        "time": "09:40",
+        "kind": "急行",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "09:48",
+        "time": "09:45",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
@@ -5017,22 +3732,27 @@
         "destination": "尾張瀬戸"
        },
        {
-        "time": "10:12",
+        "time": "10:10",
+        "kind": "準急",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "10:15",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "10:24",
+        "time": "10:30",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "10:36",
+        "time": "10:40",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "10:48",
+        "time": "10:50",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
@@ -5042,22 +3762,27 @@
         "destination": "尾張瀬戸"
        },
        {
-        "time": "11:12",
+        "time": "11:10",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "11:24",
+        "time": "11:20",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "11:36",
+        "time": "11:30",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "11:48",
+        "time": "11:40",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "11:50",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
@@ -5067,22 +3792,27 @@
         "destination": "尾張瀬戸"
        },
        {
-        "time": "12:12",
+        "time": "12:10",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "12:24",
+        "time": "12:20",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "12:36",
+        "time": "12:30",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "12:48",
+        "time": "12:40",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "12:50",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
@@ -5092,22 +3822,27 @@
         "destination": "尾張瀬戸"
        },
        {
-        "time": "13:12",
+        "time": "13:10",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "13:24",
+        "time": "13:20",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "13:36",
+        "time": "13:30",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "13:48",
+        "time": "13:40",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "13:50",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
@@ -5117,22 +3852,27 @@
         "destination": "尾張瀬戸"
        },
        {
-        "time": "14:12",
+        "time": "14:10",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "14:24",
+        "time": "14:20",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "14:36",
+        "time": "14:30",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "14:48",
+        "time": "14:40",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "14:50",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
@@ -5142,23 +3882,33 @@
         "destination": "尾張瀬戸"
        },
        {
-        "time": "15:12",
+        "time": "15:10",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "15:24",
+        "time": "15:20",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "15:36",
+        "time": "15:30",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "15:48",
+        "time": "15:40",
+        "kind": "準急",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "15:45",
         "kind": "普通",
+        "destination": "尾張旭"
+       },
+       {
+        "time": "15:55",
+        "kind": "急行",
         "destination": "尾張瀬戸"
        },
        {
@@ -5167,23 +3917,38 @@
         "destination": "尾張瀬戸"
        },
        {
-        "time": "16:12",
+        "time": "16:10",
+        "kind": "準急",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "16:15",
+        "kind": "普通",
+        "destination": "尾張旭"
+       },
+       {
+        "time": "16:25",
+        "kind": "急行",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "16:30",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "16:24",
-        "kind": "普通",
+        "time": "16:40",
+        "kind": "準急",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "16:36",
+        "time": "16:45",
         "kind": "普通",
-        "destination": "尾張瀬戸"
+        "destination": "尾張旭"
        },
        {
-        "time": "16:48",
-        "kind": "普通",
+        "time": "16:55",
+        "kind": "急行",
         "destination": "尾張瀬戸"
        },
        {
@@ -5192,23 +3957,38 @@
         "destination": "尾張瀬戸"
        },
        {
-        "time": "17:12",
+        "time": "17:10",
+        "kind": "準急",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "17:15",
+        "kind": "普通",
+        "destination": "尾張旭"
+       },
+       {
+        "time": "17:25",
+        "kind": "急行",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "17:30",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "17:24",
-        "kind": "普通",
+        "time": "17:40",
+        "kind": "準急",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "17:36",
+        "time": "17:45",
         "kind": "普通",
-        "destination": "尾張瀬戸"
+        "destination": "尾張旭"
        },
        {
-        "time": "17:48",
-        "kind": "普通",
+        "time": "17:55",
+        "kind": "急行",
         "destination": "尾張瀬戸"
        },
        {
@@ -5217,23 +3997,38 @@
         "destination": "尾張瀬戸"
        },
        {
-        "time": "18:12",
+        "time": "18:10",
+        "kind": "準急",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "18:15",
+        "kind": "普通",
+        "destination": "尾張旭"
+       },
+       {
+        "time": "18:25",
+        "kind": "急行",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "18:30",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "18:24",
-        "kind": "普通",
+        "time": "18:40",
+        "kind": "準急",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "18:36",
+        "time": "18:45",
         "kind": "普通",
-        "destination": "尾張瀬戸"
+        "destination": "尾張旭"
        },
        {
-        "time": "18:48",
-        "kind": "普通",
+        "time": "18:55",
+        "kind": "急行",
         "destination": "尾張瀬戸"
        },
        {
@@ -5242,22 +4037,27 @@
         "destination": "尾張瀬戸"
        },
        {
-        "time": "19:12",
+        "time": "19:10",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "19:24",
+        "time": "19:20",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "19:36",
+        "time": "19:30",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "19:48",
+        "time": "19:40",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "19:50",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
@@ -5292,22 +4092,17 @@
         "destination": "尾張瀬戸"
        },
        {
-        "time": "21:12",
+        "time": "21:15",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "21:24",
+        "time": "21:30",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "21:36",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "21:48",
+        "time": "21:45",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
@@ -5317,22 +4112,17 @@
         "destination": "尾張瀬戸"
        },
        {
-        "time": "22:12",
+        "time": "22:15",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "22:24",
+        "time": "22:30",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "22:36",
-        "kind": "普通",
-        "destination": "尾張瀬戸"
-       },
-       {
-        "time": "22:48",
+        "time": "22:45",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
@@ -5342,27 +4132,579 @@
         "destination": "尾張瀬戸"
        },
        {
-        "time": "23:20",
+        "time": "23:15",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "23:40",
+        "time": "23:30",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "24:00",
+        "time": "23:45",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       }
+      ],
+      "HOLIDAY": [
+       {
+        "time": "00:00",
+        "kind": "普通",
+        "destination": "喜多山"
+       },
+       {
+        "time": "05:50",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "24:20",
+        "time": "06:05",
         "kind": "普通",
         "destination": "尾張瀬戸"
        },
        {
-        "time": "24:40",
+        "time": "06:20",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "06:35",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "06:45",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "06:55",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "07:05",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "07:12",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "07:20",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "07:27",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "07:35",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "07:42",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "07:50",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "07:57",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "08:05",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "08:12",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "08:20",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "08:27",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "08:35",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "08:42",
+        "kind": "普通",
+        "destination": "尾張旭"
+       },
+       {
+        "time": "08:50",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "09:00",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "09:10",
+        "kind": "急行",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "09:15",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "09:30",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "09:40",
+        "kind": "急行",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "09:45",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "10:00",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "10:10",
+        "kind": "準急",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "10:15",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "10:30",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "10:40",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "10:50",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "11:00",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "11:10",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "11:20",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "11:30",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "11:40",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "11:50",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "12:00",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "12:10",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "12:20",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "12:30",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "12:40",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "12:50",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "13:00",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "13:10",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "13:20",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "13:30",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "13:40",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "13:50",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "14:00",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "14:10",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "14:20",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "14:30",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "14:40",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "14:50",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "15:00",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "15:10",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "15:20",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "15:30",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "15:40",
+        "kind": "準急",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "15:45",
+        "kind": "普通",
+        "destination": "尾張旭"
+       },
+       {
+        "time": "15:55",
+        "kind": "急行",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "16:00",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "16:10",
+        "kind": "準急",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "16:15",
+        "kind": "普通",
+        "destination": "尾張旭"
+       },
+       {
+        "time": "16:25",
+        "kind": "急行",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "16:30",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "16:40",
+        "kind": "準急",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "16:45",
+        "kind": "普通",
+        "destination": "尾張旭"
+       },
+       {
+        "time": "16:55",
+        "kind": "急行",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "17:00",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "17:10",
+        "kind": "準急",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "17:15",
+        "kind": "普通",
+        "destination": "尾張旭"
+       },
+       {
+        "time": "17:25",
+        "kind": "急行",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "17:30",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "17:40",
+        "kind": "準急",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "17:45",
+        "kind": "普通",
+        "destination": "尾張旭"
+       },
+       {
+        "time": "17:55",
+        "kind": "急行",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "18:00",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "18:10",
+        "kind": "準急",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "18:15",
+        "kind": "普通",
+        "destination": "尾張旭"
+       },
+       {
+        "time": "18:25",
+        "kind": "急行",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "18:30",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "18:40",
+        "kind": "準急",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "18:45",
+        "kind": "普通",
+        "destination": "尾張旭"
+       },
+       {
+        "time": "18:55",
+        "kind": "急行",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "19:00",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "19:10",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "19:20",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "19:30",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "19:40",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "19:50",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "20:00",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "20:12",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "20:24",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "20:36",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "20:48",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "21:00",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "21:15",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "21:30",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "21:45",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "22:00",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "22:15",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "22:30",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "22:45",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "23:00",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "23:15",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "23:30",
+        "kind": "普通",
+        "destination": "尾張瀬戸"
+       },
+       {
+        "time": "23:45",
         "kind": "普通",
         "destination": "尾張瀬戸"
        }
