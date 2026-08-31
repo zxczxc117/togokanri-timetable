@@ -371,7 +371,7 @@ def parse_meitetsu_diagram(
     detail_resolver: Optional[
         Callable[[str], Tuple[Optional[str], Optional[str]]]
     ] = None,
-) -> List[Trip]:
+) -> Dict[str, List[Trip]]:
     """名鉄公式 TrainDiagram HTML を列車単位で Trip 化する。
 
     重要:
