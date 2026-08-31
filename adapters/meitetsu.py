@@ -1,4 +1,3 @@
-```python
 # -*- coding: utf-8 -*-
 """名鉄：駅・路線・方面固有のTrainDiagramを取得する。"""
 from __future__ import annotations
@@ -152,4 +151,3 @@ def fetch(
     ensure_nonempty(out)
 
     return out
-```
