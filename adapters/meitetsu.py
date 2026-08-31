@@ -142,12 +142,13 @@ def fetch(
     #
     # ※土休日も正確に分離する必要がある場合は、
     # parserの戻り値を曜日別Dictへ拡張する。
-    out: Dict[str, List[Trip]] = {
-        WEEKDAY: trips,
-        SATURDAY: [],
-        HOLIDAY: [],
-    }
+    trips_by_day = parse_meitetsu_diagram(
+        html,
+        base_url=final_url,
+        detail_resolver=_resolve_detail,
+    )
 
-    ensure_nonempty(out)
+    ensure_nonempty(trips_by_day)
 
-    return out
+    return trips_by_day
+

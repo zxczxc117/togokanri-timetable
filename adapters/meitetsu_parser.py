@@ -465,7 +465,11 @@ def parse_meitetsu_diagram(
                     )
                 )
 
-    return trips
+    return {
+       WEEKDAY: trips,
+       SATURDAY: [],
+       HOLIDAY: [],
+    }
 
 # ---- 自己テスト（build 実行時と単体実行で使う） ----
 def self_test() -> List[str]:
@@ -522,15 +526,18 @@ def self_test() -> List[str]:
     <div>行先表示</div>
     <div>瀬 : 尾張瀬戸　旭 : 尾張旭　喜 : 喜多山</div>
     """
-    mt = parse_meitetsu_diagram(
-        meitetsu_html,
-        kind_class_map={
-            "kind-futsu": "普通",
-            "kind-junkyu": "準急",
-            "kind-kyuko": "急行",
-        },
-    )
-    got = [(x.time, x.kind, x.destination) for x in mt]
+    mt_by_day = parse_meitetsu_diagram(
+         meitetsu_html,
+         kind_class_map={
+             "kind-futsu": "普通",
+             "kind-junkyu": "準急",
+             "kind-kyuko": "急行",
+         },
+     )
+
+     mt = mt_by_day[WEEKDAY]
+
+     got = [(x.time, x.kind, x.destination) for x in mt]
     expected = [
         ("07:04", "普通", "尾張瀬戸"),
         ("07:17", "準急", "尾張旭"),
