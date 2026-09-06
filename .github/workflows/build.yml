@@ -2,7 +2,8 @@ name: build-timetable
 
 on:
   schedule:
-    - cron: "0 19 * * *"   # UTC 19:00 = 日本時間 翌4:00
+    # - cron: "0 19 * * *"   # UTC 19:00 = 日本時間 翌4:00
+    - cron: "0 19 1 * *"   # 毎月2日 日本時間 翌4:00
   workflow_dispatch: {}     # 手動実行ボタン
 
 permissions:
